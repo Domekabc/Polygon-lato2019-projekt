@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TempleRunner.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{47C08C00-1D80-4A78-8CB7-79421424B426}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TempleRunner.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TempleRunnerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{51483ED4-4FD0-4F73-8BDD-0C6D34A16CD6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TempleRunner">
+      <UniqueIdentifier>{6DCAB3BD-7AC2-4F5D-A030-359844B6131A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
+      <Filter>Source\TempleRunner</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TempleRunner\TempleRunner.cpp">
+      <Filter>Source\TempleRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TempleRunner\TempleRunner.h">
+      <Filter>Source\TempleRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TempleRunner\TempleRunnerGameModeBase.cpp">
+      <Filter>Source\TempleRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TempleRunner\TempleRunnerGameModeBase.h">
+      <Filter>Source\TempleRunner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

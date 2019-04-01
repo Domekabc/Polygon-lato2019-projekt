@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TempleRunner.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.cpp.obj"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.cpp.obj"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.init.gen.cpp.obj"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.gen.cpp.obj"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\PCLaunch.rc.res"
+/OUT:"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\UE4Editor-TempleRunner.lib"
