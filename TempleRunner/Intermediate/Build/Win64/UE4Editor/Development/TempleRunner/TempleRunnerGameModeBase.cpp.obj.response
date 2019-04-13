@@ -24,9 +24,9 @@
 /wd4838
 /we4668
 /I .
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source\TempleRunner"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner"
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -421,12 +421,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source\TempleRunner\TempleRunnerGameModeBase.cpp"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
-/Fo"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.cpp.obj"
+/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner\TempleRunnerGameModeBase.cpp"
+/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
+/Fo"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

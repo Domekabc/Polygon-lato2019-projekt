@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TempleRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{47C08C00-1D80-4A78-8CB7-79421424B426}</UniqueIdentifier>
+      <UniqueIdentifier>{CAB3C45C-00F0-4E7A-91E1-0D3DC1E12EF8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{51483ED4-4FD0-4F73-8BDD-0C6D34A16CD6}</UniqueIdentifier>
+      <UniqueIdentifier>{6C04D2B3-D410-4519-B600-4BC04F930C25}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TempleRunner">
-      <UniqueIdentifier>{6DCAB3BD-7AC2-4F5D-A030-359844B6131A}</UniqueIdentifier>
+      <UniqueIdentifier>{95B78733-193C-434F-8A04-C62451683AA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
       <Filter>Source\TempleRunner</Filter>
