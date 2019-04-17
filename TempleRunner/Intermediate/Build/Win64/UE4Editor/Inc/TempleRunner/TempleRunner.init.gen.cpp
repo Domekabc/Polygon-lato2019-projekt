@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTempleRunner_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TempleRunner",
 				PKG_CompiledIn | 0x00000000,
-				0xC5B2F19E,
-				0x9F8155EA,
+				0xC5EE6A53,
+				0x70F8460F,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

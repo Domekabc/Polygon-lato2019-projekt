@@ -24,10 +24,12 @@
 /wd4838
 /we4668
 /I .
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source\TempleRunner"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner\Private"
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
 /I Runtime
+/I Runtime\TimeManagement\Public
+/I Runtime\TimeManagement
+/I Runtime\TimeManagement\Public\Widgets
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -67,40 +69,6 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
-/I Runtime\ApplicationCore\Public
-/I Runtime\ApplicationCore
-/I Runtime\ApplicationCore\Public\GenericPlatform
-/I Runtime\ApplicationCore\Public\HAL
-/I Runtime\ApplicationCore\Public\Windows
-/I Runtime\RHI\Public
-/I Runtime\RHI
-/I Runtime\Json\Public
-/I Runtime\Json
-/I Runtime\Json\Public\Dom
-/I Runtime\Json\Public\Policies
-/I Runtime\Json\Public\Serialization
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
 /I Runtime\SlateCore\Public
 /I Runtime\SlateCore
@@ -125,6 +93,18 @@
 /I Runtime\InputCore\Public\GenericPlatform
 /I Runtime\InputCore\Public\HAL
 /I Runtime\InputCore\Public\Windows
+/I Runtime\ApplicationCore\Public
+/I Runtime\ApplicationCore
+/I Runtime\ApplicationCore\Public\GenericPlatform
+/I Runtime\ApplicationCore\Public\HAL
+/I Runtime\ApplicationCore\Public\Windows
+/I Runtime\RHI\Public
+/I Runtime\RHI
+/I Runtime\Json\Public
+/I Runtime\Json
+/I Runtime\Json\Public\Dom
+/I Runtime\Json\Public\Policies
+/I Runtime\Json\Public\Serialization
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime\Slate\Public
 /I Runtime\Slate
@@ -152,6 +132,28 @@
 /I Runtime\Slate\Public\Widgets\Views
 /I Runtime\ImageWrapper\Public
 /I Runtime\ImageWrapper
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
 /I Runtime\Messaging\Public
 /I Runtime\Messaging
 /I Runtime\MessagingCommon\Public
@@ -333,10 +335,6 @@
 /I Runtime\MovieScene\Public\Generators
 /I Runtime\MovieScene\Public\Sections
 /I Runtime\MovieScene\Public\Tracks
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
-/I Runtime\TimeManagement\Public
-/I Runtime\TimeManagement
-/I Runtime\TimeManagement\Public\Widgets
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
 /I Runtime\MovieSceneTracks\Public
 /I Runtime\MovieSceneTracks
@@ -415,18 +413,22 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner\Public"
+/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner"
 /I "J:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source\TempleRunner\TempleRunner.cpp"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
-/Fo"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.cpp.obj"
+/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner\TempleRunner.cpp"
+/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
+/Fo"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.cpp.obj"
 /TP
 /GR-
 /W4

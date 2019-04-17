@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TempleRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{47C08C00-1D80-4A78-8CB7-79421424B426}</UniqueIdentifier>
+      <UniqueIdentifier>{B671E4BF-0A8A-4C15-9F45-7CA9148164C3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{51483ED4-4FD0-4F73-8BDD-0C6D34A16CD6}</UniqueIdentifier>
+      <UniqueIdentifier>{87B310CC-5F6F-4E20-B181-59DC601EEC66}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TempleRunner">
-      <UniqueIdentifier>{6DCAB3BD-7AC2-4F5D-A030-359844B6131A}</UniqueIdentifier>
+      <UniqueIdentifier>{E0F9E865-E534-41AE-9111-C8AECE9B2FE8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
       <Filter>Source\TempleRunner</Filter>
@@ -40,6 +40,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\TempleRunner\TempleRunnerGameModeBase.h">
       <Filter>Source\TempleRunner</Filter>
+    </ClInclude>
+    <Filter Include="Source\TempleRunner\Private">
+      <UniqueIdentifier>{61CF31D9-F54B-45F1-8D54-EF2F49632513}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TempleRunner\Private\TimeTracking.cpp">
+      <Filter>Source\TempleRunner\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TempleRunner\Public">
+      <UniqueIdentifier>{C60F2B66-AD84-45BD-B1B8-E708897904E8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TempleRunner\Public\TimeTracking.h">
+      <Filter>Source\TempleRunner\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
