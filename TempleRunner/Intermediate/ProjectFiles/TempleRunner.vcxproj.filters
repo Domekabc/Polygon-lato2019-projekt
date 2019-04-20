@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TempleRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6A8F15B7-BF71-480C-BC94-27835873E208}</UniqueIdentifier>
+      <UniqueIdentifier>{A18573B3-C67E-464A-91CC-0573E5690D9B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.gitignore" />
-    <None Include="..\..\endless2.uproject" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C5B10557-B948-46E4-B935-5B0AD13383FC}</UniqueIdentifier>
+      <UniqueIdentifier>{2BADAAD3-C092-4C5B-BE25-C621BFA72933}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TempleRunner">
-      <UniqueIdentifier>{C0B009E5-D02A-4577-95CA-B9D55237C3EC}</UniqueIdentifier>
+      <UniqueIdentifier>{105B66BD-14B7-4AED-8C2A-E3B78D6B33B4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
       <Filter>Source\TempleRunner</Filter>
