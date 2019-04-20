@@ -6,10 +6,11 @@
 /NAME:"UE4Editor-TempleRunner.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.cpp.obj"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.cpp.obj"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.init.gen.cpp.obj"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.gen.cpp.obj"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\PCLaunch.rc.res"
-/OUT:"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\UE4Editor-TempleRunner.lib"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.cpp.obj"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.cpp.obj"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.init.gen.cpp.obj"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.gen.cpp.obj"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Default.rc2.res"
+/OUT:"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\UE4Editor-TempleRunner.lib"
+/INCLUDE:IMPLEMENT_MODULE_TempleRunner
