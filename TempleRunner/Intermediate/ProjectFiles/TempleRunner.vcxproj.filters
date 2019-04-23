@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TempleRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6A1FF2AB-4893-45DE-A789-B7726586AF94}</UniqueIdentifier>
+      <UniqueIdentifier>{1124476C-51CB-4C9C-A9A4-599EA6BA5B34}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\TempleRunnerEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FA94386B-5A8E-405D-BEC0-4CB309BB10D6}</UniqueIdentifier>
+      <UniqueIdentifier>{123379BF-B336-4825-9A65-FE937DB9D6C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +25,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TempleRunner">
-      <UniqueIdentifier>{809A78BB-D3B9-4E83-B128-D854AE480516}</UniqueIdentifier>
+      <UniqueIdentifier>{A8D21247-9F68-4202-A052-B952D09F8663}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
       <Filter>Source\TempleRunner</Filter>
@@ -42,13 +43,13 @@
       <Filter>Source\TempleRunner</Filter>
     </ClInclude>
     <Filter Include="Source\TempleRunner\Private">
-      <UniqueIdentifier>{F382F1E8-87B6-49A3-8DBC-6B764BB906D4}</UniqueIdentifier>
+      <UniqueIdentifier>{DA10F43B-2B25-464C-B596-A9C3504269A6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TempleRunner\Private\TimeTracking.cpp">
       <Filter>Source\TempleRunner\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TempleRunner\Public">
-      <UniqueIdentifier>{AB097149-E937-4B03-BFCD-27FF33CDF19A}</UniqueIdentifier>
+      <UniqueIdentifier>{9271436B-96D7-49B0-912E-E53E97FB7418}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TempleRunner\Public\TimeTracking.h">
       <Filter>Source\TempleRunner\Public</Filter>

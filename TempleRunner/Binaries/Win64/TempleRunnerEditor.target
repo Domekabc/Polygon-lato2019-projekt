@@ -2,20 +2,22 @@
 	"TargetName": "TempleRunnerEditor",
 	"Platform": "Win64",
 	"Configuration": "Development",
+	"TargetType": "Editor",
+	"Project": "../../TempleRunner.uproject",
+	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"Version": 
 	{
 		"MajorVersion": 4,
-		"MinorVersion": 21,
-		"PatchVersion": 2,
-		"Changelist": 4753647,
-		"CompatibleChangelist": 4541578,
+		"MinorVersion": 22,
+		"PatchVersion": 0,
+		"Changelist": 5660361,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
-		"BranchName": "++UE4+Release-4.21",
-		"BuildId": "4541578",
+		"BranchName": "++UE4+Release-4.22",
+		"BuildId": "5660361",
 		"BuildVersion": ""
 	},
-	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
@@ -26,19 +28,19 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor-DatasmithCADImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor-DatasmithCADImporter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor-DatasmithCADImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor-DatasmithCADImporter.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithImporter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithImporter.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -54,51 +56,91 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithVREDImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\Binaries\\Win64\\UE4Editor-DatasmithDataPrepEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithVREDImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\Binaries\\Win64\\UE4Editor-DatasmithDataPrepEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithDeltaGenImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\Binaries\\Win64\\UE4Editor-DatasmithDataPrepLibraries.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithDeltaGenImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\Binaries\\Win64\\UE4Editor-DatasmithDataPrepLibraries.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithFBXImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithVREDImporter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithFBXImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithVREDImporter.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor-MDLImporter.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithDeltaGenImporter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor-MDLImporter.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithDeltaGenImporter.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-StaticMeshEditorExtension.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithFBXImporter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-StaticMeshEditorExtension.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor-DatasmithFBXImporter.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-MeshProcessingLibrary.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor-VariantManager.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-MeshProcessingLibrary.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor-VariantManager.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UE4Editor-VariantManagerContent.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\Binaries\\Win64\\UE4Editor-DatasmithGLTFImporter.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\Binaries\\Win64\\UE4Editor-DatasmithGLTFImporter.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Win64/UE4Editor-GLTFImporter.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor-MDLImporter.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor-MDLImporter.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-StaticMeshEditorExtension.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-StaticMeshEditorExtension.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-MeshProcessingLibrary.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-MeshProcessingLibrary.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -114,19 +156,31 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/Binaries/Win64/UE4Editor-BlastAuthoring.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/Binaries/Win64/UE4Editor-GeometryCollectionExampleCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/Binaries/Win64/UE4Editor-GeometryCollectionEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/ChaosSolverPlugin/Binaries/Win64/UE4Editor-ChaosSolverEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/Binaries/Win64/UE4Editor-ProxyLODMeshReduction.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor-VariantManager.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor-VariantManager.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UE4Editor-VariantManagerContent.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -167,6 +221,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/ActorLayerUtilities/Binaries/Win64/UE4Editor-ActorLayerUtilitiesEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/Binaries/Win64/UE4Editor-AnimationSharing.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/Binaries/Win64/UE4Editor-AnimationSharingEd.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SignificanceManager/Binaries/Win64/UE4Editor-SignificanceManager.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -223,6 +289,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/MaterialAnalyzer/Binaries/Win64/UE4Editor-MaterialAnalyzer.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -290,7 +360,31 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/Binaries/Win64/UE4Editor-SkeletalMeshReduction.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapMediaEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapMediaFactory.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapMediaCodecFactory.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapCameraPreviewFactory.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/Binaries/Win64/UE4Editor-MagicLeap.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/Binaries/Win64/UE4Editor-MagicLeapAR.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -323,26 +417,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/Binaries/Win64/UE4Editor-MagicLeapIdentity.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapMediaEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapMediaFactory.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor-MagicLeapCameraPreviewFactory.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -415,6 +489,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequenceEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -499,6 +577,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusMR.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -622,6 +704,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MessageLog.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ActorPickerMode.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -654,10 +740,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MessageLog.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-WorkspaceMenuStructure.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -675,90 +757,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-LauncherPlatform.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-NullDrv.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-UtilityShaders.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-D3D11RHI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-D3D12RHI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ImageWriteQueue.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MaterialShaderQualitySettings.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Renderer.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Analytics.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-EngineSettings.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-HeadMountedDisplay.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SandboxFile.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Sockets.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SSL.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-HTTP.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AnalyticsET.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-BuildPatchServices.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-PreLoadScreen.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-VulkanRHI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-OpenGLDrv.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RHI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ShaderCore.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -819,6 +817,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-PIEPreviewDeviceSpecification.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SandboxFile.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Sockets.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -886,6 +892,82 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-NullDrv.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-UtilityShaders.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-D3D11RHI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-D3D12RHI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ImageWriteQueue.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MaterialShaderQualitySettings.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Renderer.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Analytics.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-EngineSettings.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AugmentedReality.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-HeadMountedDisplay.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SSL.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-HTTP.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AnalyticsET.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-BuildPatchServices.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-PreLoadScreen.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-VulkanRHI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-OpenGLDrv.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RHI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RenderCore.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -895,6 +977,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-HardwareTargeting.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RSA.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -958,11 +1044,23 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RawMesh.dll",
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshDescription.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshUtilitiesCommon.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MaterialBaking.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-RawMesh.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshDescriptionOperations.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1046,6 +1144,14 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-LiveLinkInterface.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SerializedRecorderInterface.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SceneOutliner.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1099,10 +1205,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-NetworkReplayStreaming.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-LiveLinkInterface.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1170,6 +1272,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-DataTableEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Layers.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1211,18 +1317,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-GraphColor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshDescription.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshUtilitiesCommon.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MeshDescriptionOperations.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1310,6 +1404,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-NewLevelDialog.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-PlacementMode.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1327,10 +1425,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-WorldBrowser.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-NewLevelDialog.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1378,10 +1472,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-DataTableEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-MaterialEditor.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1415,6 +1505,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-KismetCompiler.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-EditorSubsystem.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1682,10 +1776,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-DatabaseSupport.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ReliabilityHandlerComponent.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1750,6 +1840,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-LiveCoding.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Engine.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1806,12 +1900,48 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Binaries\\Win64\\UE4Editor-DatasmithCore.dll",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Binaries\\Win64\\UE4Editor-DatasmithCore.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Binaries\\Win64\\UE4Editor-DatasmithCore.pdb",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Binaries\\Win64\\UE4Editor-DatasmithCore.pdb",
 			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-GeometryCollectionCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-FieldSystemCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Chaos.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ChaosSolvers.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-FieldSystemSimulationCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-FieldSystemEngine.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-GeometryCollectionSimulationCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ChaosSolverEngine.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-GeometryCollectionEngine.dll",
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-QuadricMeshReduction.dll",
@@ -1838,6 +1968,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/dxil.dll",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/dxcompiler.dll",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/embree.2.14.0.dll",
 			"Type": "RequiredResource"
 		},
@@ -1850,15 +1988,23 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor.version",
-			"Type": "BuildResource"
-		},
-		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.pdb",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/Binaries/Win64/UE4Editor.version",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\Binaries\\Win64\\UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -1870,15 +2016,35 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\Binaries\\Win64\\UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\Binaries\\Win64\\UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\Binaries\\Win64\\UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -1890,15 +2056,23 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/ChaosSolverPlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Runtime\\VariantManager\\Binaries\\Win64\\UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -1915,6 +2089,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/ActorLayerUtilities/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SignificanceManager/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -1966,6 +2148,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/MaterialAnalyzer/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2006,15 +2192,15 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2178,7 +2364,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Binaries\\Win64\\UE4Editor.modules",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Binaries\\Win64\\UE4Editor.modules",
 			"Type": "RequiredResource"
 		}
 	],
@@ -2188,11 +2374,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\DatasmithCADImporter.uplugin",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\DatasmithCADImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\DatasmithImporter.uplugin",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\DatasmithImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2204,15 +2390,35 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\DatasmithFBXImporter.uplugin",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\DatasmithDataPrepEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\MDLImporter\\MDLImporter.uplugin",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\DatasmithFBXImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\StaticMeshEditorExtension.uplugin",
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\VariantManager.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\DatasmithGLTFImporter.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/GLTFImporter.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\MDLImporter.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "C:\\Unreal Engine\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\StaticMeshEditorExtension.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2224,15 +2430,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/BlastPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/GeometryCollectionPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/ChaosSolverPlugin/ChaosSolverPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/ProxyLODPlugin.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "D:\\Unreal Engine\\UE_4.21\\Enterprise\\Plugins\\Runtime\\VariantManager\\VariantManager.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2249,6 +2463,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/ActorLayerUtilities/ActorLayerUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/AnimationSharing.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SignificanceManager/SignificanceManager.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2300,6 +2522,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/MaterialAnalyzer/MaterialAnalyzer.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin",
 			"Type": "UFS"
 		},
@@ -2340,15 +2566,15 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/MagicLeap.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/SkeletalReduction.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapMedia/MagicLeapMedia.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeap/MagicLeap.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2497,6 +2723,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/libfbxsdk.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/Binaries/Win64/NvBlastPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/Binaries/Win64/NvBlastGlobalsPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/BlastPlugin/Binaries/Win64/NvBlastExtAuthoringPROFILE_x64.dll",
 			"Type": "NonUFS"
 		},
 		{
@@ -4689,11 +4927,23 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/SlateDebug/Fonts/LastResort.tps",
-			"Type": "UFS"
+			"Type": "DebugNonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Content/SlateDebug/Fonts/LastResort.ttf",
-			"Type": "UFS"
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/dxil.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/dxcompiler.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/ImgTec/PVRTexToolCLI.exe",
@@ -4714,6 +4964,14 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/tbbmalloc.dll",
 			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.pdb",
+			"Type": "DebugNonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Source/FreeImage317.dll",
