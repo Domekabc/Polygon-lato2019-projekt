@@ -2,15 +2,19 @@
 /nologo
 /Oi
 /c
+/Gw
 /Gy
 /Zm850
 /wd4819
 /D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
 /D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
 /D_WINDLL
-/source-charset:utf-8 /execution-charset:utf-8
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
 /Ox
 /Ot
+/GF
 /Ob2
 /errorReport:prompt
 /EHsc
@@ -24,9 +28,9 @@
 /wd4838
 /we4668
 /I .
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source"
-/I "I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Source\TempleRunner"
+/I "C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
+/I "C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Source"
+/I "C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Source\TempleRunner"
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -79,6 +83,7 @@
 /I Runtime\Engine\Public\EdGraph
 /I Runtime\Engine\Public\Internationalization
 /I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\Net\Util
 /I Runtime\Engine\Public\PacketHandlers
 /I Runtime\Engine\Public\Performance
 /I Runtime\Engine\Public\Physics
@@ -87,6 +92,7 @@
 /I Runtime\Engine\Public\ProfilingDebugging
 /I Runtime\Engine\Public\Rendering
 /I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Subsystems
 /I Runtime\Engine\Public\Tests
 /I Runtime\Engine\Public\VisualLogger
 /I Runtime\ApplicationCore\Public
@@ -111,13 +117,13 @@
 /I Runtime\SlateCore\Public\Fonts
 /I Runtime\SlateCore\Public\Input
 /I Runtime\SlateCore\Public\Layout
-/I Runtime\SlateCore\Public\Logging
 /I Runtime\SlateCore\Public\Rendering
 /I Runtime\SlateCore\Public\Sound
 /I Runtime\SlateCore\Public\Styling
 /I Runtime\SlateCore\Public\Textures
 /I Runtime\SlateCore\Public\Types
 /I Runtime\SlateCore\Public\Widgets
+/I Runtime\SlateCore\Public\Widgets\Images
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
 /I Runtime\InputCore\Classes
 /I Runtime\InputCore\Public
@@ -158,8 +164,6 @@
 /I Runtime\MessagingCommon
 /I Runtime\RenderCore\Public
 /I Runtime\RenderCore
-/I Runtime\ShaderCore\Public
-/I Runtime\ShaderCore
 /I Runtime\Sockets\Public
 /I Runtime\Sockets
 /I Runtime\UtilityShaders\Public
@@ -183,8 +187,6 @@
 /I Runtime\GameplayTags\Classes
 /I Runtime\GameplayTags\Public
 /I Runtime\GameplayTags
-/I Runtime\DatabaseSupport\Public
-/I Runtime\DatabaseSupport
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler
 /I Runtime\PacketHandlers
 /I Runtime\PacketHandlers\PacketHandler\Classes
@@ -200,6 +202,8 @@
 /I Runtime\MeshDescription
 /I Runtime\PakFile\Public
 /I Runtime\PakFile
+/I Runtime\RSA\Public
+/I Runtime\RSA
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
 /I Editor
 /I Programs\UnrealLightmass\Public
@@ -216,6 +220,7 @@
 /I Editor\UnrealEd\Public\Kismet2
 /I Editor\UnrealEd\Public\Layers
 /I Editor\UnrealEd\Public\Settings
+/I Editor\UnrealEd\Public\Subsystems
 /I Editor\UnrealEd\Public\Tests
 /I Editor\UnrealEd\Public\Toolkits
 /I Editor\BspMode\Public
@@ -250,6 +255,9 @@
 /I Editor\BlueprintGraph\Classes
 /I Editor\BlueprintGraph\Public
 /I Editor\BlueprintGraph
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
+/I Editor\EditorSubsystem\Public
+/I Editor\EditorSubsystem
 /I Runtime\Online
 /I Runtime\Online\HTTP\Public
 /I Runtime\Online\HTTP
@@ -322,6 +330,7 @@
 /I Runtime\UMG\Public\Binding
 /I Runtime\UMG\Public\Blueprint
 /I Runtime\UMG\Public\Components
+/I Runtime\UMG\Public\Editor
 /I Runtime\UMG\Public\Slate
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
 /I Runtime\MovieScene\Public
@@ -357,6 +366,9 @@
 /I Runtime\NavigationSystem\Public\NavFilters
 /I Runtime\NavigationSystem\Public\NavGraph
 /I Runtime\NavigationSystem\Public\NavMesh
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescriptionOperations
+/I Developer\MeshDescriptionOperations\Public
+/I Developer\MeshDescriptionOperations
 /I Developer\MeshBuilder\Public
 /I Developer\MeshBuilder
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings
@@ -412,21 +424,23 @@
 /I Runtime\AudioMixer
 /I Runtime\AudioMixer\Public\Components
 /I Runtime\AudioMixer\Public\DSP
+/I Runtime\AudioMixer\Public\DSP\Encoders
+/I Runtime\AudioMixer\Public\SoundFileIO
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "J:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner\TempleRunnerGameModeBase.gen.cpp"
-/FI"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
-/Fo"I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner\TempleRunnerGameModeBase.gen.cpp"
+/FI"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
+/Fo"C:\Users\micha\OneDrive\Documents\projekt endless\repo\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunnerGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
