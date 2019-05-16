@@ -1,4 +1,4 @@
-// PCH for C:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+// PCH for D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -208,4 +208,4 @@
 #define NETWORKREPLAYSTREAMING_API DLLIMPORT
 #define AUDIOMIXER_API DLLIMPORT
 #define UELIBSAMPLERATE_API DLLIMPORT
-#include "C:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
+#include "D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
