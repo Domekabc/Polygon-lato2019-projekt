@@ -28,9 +28,9 @@
 /wd4838
 /we4668
 /I .
-/I "D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
-/I "D:\corpoGame\Nowy folder\TempleRunner\Source"
-/I "D:\corpoGame\Nowy folder\TempleRunner\Source\TempleRunner"
+/I "C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner"
+/I "C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Source"
+/I "C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner"
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -429,17 +429,17 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "D:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner\TempleRunner.init.gen.cpp"
-/FI"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
-/Fo"D:\corpoGame\Nowy folder\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.init.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\TempleRunnerEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Inc\TempleRunner\TempleRunner.init.gen.cpp"
+/FI"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\Definitions.TempleRunner.h"
+/Fo"C:\Users\Domin\Desktop\Dominik\Polygon 2019l\Polygon-lato2019-projekt\TempleRunner\Intermediate\Build\Win64\UE4Editor\Development\TempleRunner\TempleRunner.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
