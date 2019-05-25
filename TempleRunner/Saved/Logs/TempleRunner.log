@@ -1203,3 +1203,1104 @@ Script Stack (0 frames):
 [2019.05.25-19.17.33:210][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2019.05.25-19.17.33:216][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.05.25-19.17.33:278][395]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile0C76416241FC08735F39E08F0BD3E5DB.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.uasset'
+[2019.05.25-20.42.45:722][221]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\anderzejn\Desktop\EndlessAssets\Meshes\Low_Obstacles_Pipes.fbx)
+[2019.05.25-20.42.45:774][221]LogFbx: Loading FBX Scene from C:\Users\anderzejn\Desktop\EndlessAssets\Meshes\Low_Obstacles_Pipes.fbx
+[2019.05.25-20.42.45:791][221]LogFbx: FBX Scene Loaded Succesfully
+[2019.05.25-20.43.01:368][221]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.05.25-20.43.01:667][221]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.43.01:730][221]LogMaterial: Display: Missing cached shader map for material PipeConnector, compiling. 
+[2019.05.25-20.43.01:746][221]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2019.05.25-20.43.01:780][221]LogFbx: Display: Triangulating static mesh Cylinder.019
+[2019.05.25-20.43.01:806][221]LogFbx: Display: Triangulating static mesh Cylinder.000
+[2019.05.25-20.43.01:838][221]LogStaticMesh: Building static mesh Low_Obstacles_Pipes...
+[2019.05.25-20.43.01:845][221]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2019.05.25-20.43.01:929][221]LogStaticMesh: Built static mesh [0.09s] /Game/Runner/Meshes/Low_Obstacles_Pipes.Low_Obstacles_Pipes
+[2019.05.25-20.43.01:993][221]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.05.25-20.43.11:655][904]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2019.05.25-20.43.11:655][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.081
+[2019.05.25-20.43.11:657][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Runner/Meshes/Low_Obstacles_Pipes] ([1] browsable assets)...
+[2019.05.25-20.43.11:673][904]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Runner/Meshes/Low_Obstacles_Pipes.Low_Obstacles_Pipes]
+[2019.05.25-20.43.11:673][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Runner/Meshes/Low_Obstacles_Pipes]
+[2019.05.25-20.43.11:695][904]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Low_Obstacles_Pipes_Auto242F60E064CE7BA74E9BA14856802052D.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Meshes/Low_Obstacles_Pipes_Auto2.uasset'
+[2019.05.25-20.43.11:696][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Runner/Meshes/PipeMain] ([1] browsable assets)...
+[2019.05.25-20.43.11:718][904]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Runner/Meshes/PipeMain.PipeMain]
+[2019.05.25-20.43.11:718][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Runner/Meshes/PipeMain]
+[2019.05.25-20.43.11:732][904]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeMain_Auto2432BCD874D07DAC95AE522A22A3BE822.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Meshes/PipeMain_Auto2.uasset'
+[2019.05.25-20.43.11:733][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Runner/Meshes/PipeConnector] ([1] browsable assets)...
+[2019.05.25-20.43.11:745][904]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Runner/Meshes/PipeConnector.PipeConnector]
+[2019.05.25-20.43.11:745][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Runner/Meshes/PipeConnector]
+[2019.05.25-20.43.11:757][904]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeConnector_Auto26B48BA804741314569B7CBA412C36279.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Meshes/PipeConnector_Auto2.uasset'
+[2019.05.25-20.43.11:758][904]LogFileHelpers: Auto-saving content packages took 0.101
+[2019.05.25-20.43.29:118][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.05.25-20.43.31:340][317]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.25-20.43.31:430][317]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.25-20.43.31:603][317]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.25-20.43.31:672][317]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Runner/Meshes/PipeConnector.PipeConnector
+[2019.05.25-20.43.32:510][317]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2019.05.25-20.43.34:331][491]LogAssetEditorManager: Opening Asset editor for Material /Game/Runner/Meshes/PipeMain.PipeMain
+[2019.05.25-20.43.34:335][491]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.43.34:350][491]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.43.34:635][491]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.43.34:652][491]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.43.34:700][491]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.05.25-20.43.35:546][576]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.43.37:232][640]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.43.39:780][765]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.25-20.43.39:780][765]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.25-20.43.39:780][765]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.25-20.43.39:780][765]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.25-20.43.41:995][ 19]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.43.42:030][ 20]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.43.43:256][157]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.43.45:542][232]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.05.25-20.43.45:542][232]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.05.25-20.43.45:542][232]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.25-20.43.45:542][232]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.25-20.44.21:112][203]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.44.21:128][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.25-20.44.21:153][204]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.44.22:039][281]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.44.24:022][368]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.44.26:146][610]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.05.25-20.44.26:146][610]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.05.25-20.44.26:146][610]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.25-20.44.26:146][610]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.25-20.45.36:152][765]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.36:171][765]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.45.36:175][765]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.25-20.45.36:205][765]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.37:567][922]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.45.38:118][984]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.38:131][984]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.45.40:128][120]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.45.41:260][251]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.41:285][251]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.25-20.45.42:173][350]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.45.44:302][595]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.45.44:707][641]LogMaterialEditor: Saving and Compiling material PipeMain
+[2019.05.25-20.45.45:199][641]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.45:267][641]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.45:286][641]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.45.45:391][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.05.25-20.45.45:400][641]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.05.25-20.45.48:358][641]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.25-20.45.48:358][641]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.25-20.45.48:360][641]TextureStreamingBuild: Display: Compiling optional shaders took 2.968 seconds.
+[2019.05.25-20.45.48:459][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.05.25-20.45.52:512][641]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeMain97D53D74471F85DDF3B0189021F2EB3B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/PipeMain.uasset'
+[2019.05.25-20.45.52:539][641]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.05.25-20.45.52:539][641]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.05.25-20.45.52:539][641]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.25-20.45.52:539][641]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.25-20.46.05:430][198]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.05:446][198]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.05:479][199]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.46.06:839][352]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.46.07:777][457]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.07:795][457]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.08:456][532]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.46.09:190][617]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.09:526][654]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.46.11:179][736]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-20.46.15:636][ 22]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.25-20.46.15:636][ 22]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.25-20.46.15:636][ 22]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.25-20.46.15:636][ 22]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.25-20.46.22:517][297]LogMaterialEditor: Saving and Compiling material PipeMain
+[2019.05.25-20.46.22:972][297]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.23:022][297]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-20.46.23:035][297]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.23:053][297]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.25-20.46.23:097][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.05.25-20.46.23:106][297]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.05.25-20.46.26:828][297]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.25-20.46.26:828][297]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.25-20.46.26:831][297]TextureStreamingBuild: Display: Compiling optional shaders took 3.734 seconds.
+[2019.05.25-20.46.26:866][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.05.25-20.46.29:919][297]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeMain3F11EB6C4E89204EEE3666BB32D779D3.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/PipeMain.uasset'
+[2019.05.25-20.47.21:560][197]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Low_Obstacles_PipesDB1C227D444A1DDC84C9ABAC0F91B47A.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/Low_Obstacles_Pipes.uasset'
+[2019.05.25-20.47.22:171][259]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Runner/Meshes/Low_Obstacles_Pipes.Low_Obstacles_Pipes
+[2019.05.25-20.47.22:839][260]LogRenderer: Reallocating scene render targets to support 1448x900 Format 10 NumSamples 1 (Frame:1).
+[2019.05.25-20.47.50:619][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.47.55:703][418]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.MasterTile
+[2019.05.25-20.51.55:497][714]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-20.51.56:065][714]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-20.53.08:201][772]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.05.25-20.53.08:268][772]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile774AA70048617F81B893DFA34090DDE6.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.uasset'
+[2019.05.25-20.53.17:980][331]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.05.25-20.53.26:695][951]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.Obstacle_Pipe
+[2019.05.25-20.53.27:575][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.05.25-20.53.27:593][  5]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe93BD4CDF4BE6A5C0AE2543A4F7DCA2DC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
+[2019.05.25-20.54.05:535][996]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-20.54.05:724][996]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.05.25-20.54.25:624][688]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.25-20.54.42:445][665]BlueprintLog: New page: Compile MasterTile
+[2019.05.25-20.54.42:630][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.05.25-20.54.46:688][117]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-20.54.46:708][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.54.46:708][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-20.54.46:708][117]PIE: New page: PIE session: Runner (26 maj 2019, 00:54:46)
+[2019.05.25-20.54.46:708][117]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-20.54.46:711][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003147s)
+[2019.05.25-20.54.46:712][117]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-20.54.46:712][117]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2019.05.25-20.54.46:712][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004066s)
+[2019.05.25-20.54.46:754][117]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.05.25-20.54.46:775][117]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-20.54.46:783][117]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-20.54.46:783][117]LogInit: FAudioDevice initialized.
+[2019.05.25-20.54.46:812][117]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-20.54.46:813][117]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-22.54.46
+[2019.05.25-20.54.46:813][117]LogWorld: Bringing up level for play took: 0.000435
+[2019.05.25-20.54.46:832][117]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,281
+[2019.05.25-20.54.46:832][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.54.48:630][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.54.48:630][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.54.48:657][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-20.54.48:658][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.54.48:698][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.54.48:703][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.05.25-20.54.48:754][331]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.05.25-20.55.06:840][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.55.13:861][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.05.25-20.55.13:861][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.036
+[2019.05.25-20.55.13:863][976]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile] ([1] browsable assets)...
+[2019.05.25-20.55.13:880][976]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.MasterTile]
+[2019.05.25-20.55.13:880][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile]
+[2019.05.25-20.55.13:923][976]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile_Auto3060981DD484AB57E949AE9B7442A77AC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile_Auto3.uasset'
+[2019.05.25-20.55.13:924][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe] ([1] browsable assets)...
+[2019.05.25-20.55.13:924][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe]
+[2019.05.25-20.55.13:935][976]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe_Auto3DFC45F4440139C99BB7F51921F191EC1.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe_Auto3.uasset'
+[2019.05.25-20.55.13:935][976]LogFileHelpers: Auto-saving content packages took 0.073
+[2019.05.25-20.55.30:296][469]BlueprintLog: New page: Compile MasterTile
+[2019.05.25-20.55.30:497][469]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.05.25-20.55.38:112][958]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-20.55.38:131][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.55.38:131][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-20.55.38:131][958]PIE: New page: PIE session: Runner (26 maj 2019, 00:55:38)
+[2019.05.25-20.55.38:131][958]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-20.55.38:134][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002312s)
+[2019.05.25-20.55.38:134][958]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-20.55.38:135][958]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2019.05.25-20.55.38:135][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003216s)
+[2019.05.25-20.55.38:174][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.05.25-20.55.38:194][958]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-20.55.38:202][958]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-20.55.38:203][958]LogInit: FAudioDevice initialized.
+[2019.05.25-20.55.38:233][958]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-20.55.38:233][958]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-22.55.38
+[2019.05.25-20.55.38:233][958]LogWorld: Bringing up level for play took: 0.000476
+[2019.05.25-20.55.38:276][958]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,836
+[2019.05.25-20.55.38:276][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.55.52:197][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.55.52:198][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.55.52:232][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-20.55.52:232][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.55.52:277][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.55.52:282][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.05.25-20.55.52:301][626]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.05.25-20.56.05:982][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.56.15:929][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.56.16:874][101]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-20.56.16:893][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.56.16:893][101]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-20.56.16:895][101]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.05.25-20.56.17:096][101]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.05.25-20.56.17:096][101]LogPlayLevel: PlayLevel: Blueprint regeneration took 203 ms (1 blueprints)
+[2019.05.25-20.56.17:096][101]PIE: New page: PIE session: Runner (26 maj 2019, 00:56:17)
+[2019.05.25-20.56.17:096][101]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-20.56.17:099][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002350s)
+[2019.05.25-20.56.17:100][101]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-20.56.17:100][101]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2019.05.25-20.56.17:100][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003549s)
+[2019.05.25-20.56.17:137][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.05.25-20.56.17:157][101]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-20.56.17:165][101]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-20.56.17:165][101]LogInit: FAudioDevice initialized.
+[2019.05.25-20.56.17:195][101]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-20.56.17:196][101]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-22.56.17
+[2019.05.25-20.56.17:196][101]LogWorld: Bringing up level for play took: 0.000431
+[2019.05.25-20.56.17:213][101]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,101
+[2019.05.25-20.56.17:213][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.56.38:045][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.56.38:045][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.56.38:074][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-20.56.38:074][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.56.38:114][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.56.38:118][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.05.25-20.56.38:156][598]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.05.25-20.56.46:715][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.56.55:760][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.05.25-20.56.55:765][710]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-20.56.55:830][710]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile1E250338432C54954443528C63B5369B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.uasset'
+[2019.05.25-20.56.55:845][710]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe3C6756B74B0400309F01C78417842605.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
+[2019.05.25-20.57.14:334][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-20.57.17:731][223]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:753][224]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:768][225]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:781][226]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:794][227]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:808][228]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:822][229]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:835][230]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:849][231]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:861][232]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:873][233]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:886][234]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:898][235]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:911][236]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:924][237]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:937][238]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:945][239]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:951][240]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:960][241]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:971][242]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:983][243]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.17:994][244]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:005][245]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:017][246]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:029][247]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:040][248]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:051][249]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:064][250]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:075][251]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:087][252]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:098][253]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:110][254]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:122][255]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:134][256]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:147][257]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:157][258]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:170][259]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:182][260]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:194][261]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:207][262]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:219][263]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:232][264]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:244][265]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:256][266]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:268][267]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:281][268]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:293][269]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:304][270]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:316][271]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:328][272]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:340][273]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:353][274]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:365][275]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:377][276]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:389][277]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:401][278]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:413][279]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:425][280]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:437][281]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:449][282]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:463][283]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:474][284]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:485][285]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:497][286]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:510][287]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:521][288]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:533][289]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:546][290]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:557][291]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:570][292]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:582][293]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:594][294]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:606][295]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:618][296]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:630][297]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:641][298]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:653][299]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:665][300]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:676][301]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:688][302]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:700][303]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:712][304]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:724][305]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:736][306]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:748][307]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:760][308]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:772][309]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:784][310]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:796][311]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:807][312]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:819][313]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:832][314]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:843][315]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:855][316]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:867][317]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:879][318]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:891][319]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:903][320]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:916][321]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:928][322]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:940][323]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:952][324]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:964][325]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:976][326]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.18:988][327]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:000][328]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:013][329]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:024][330]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:036][331]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:048][332]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:061][333]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:073][334]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:085][335]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:097][336]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:110][337]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:122][338]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:134][339]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:146][340]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:158][341]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:169][342]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:182][343]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:194][344]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:205][345]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:218][346]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:230][347]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:242][348]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:254][349]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:266][350]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:278][351]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:290][352]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:302][353]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:314][354]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:326][355]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:338][356]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:351][357]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:363][358]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:374][359]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:387][360]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:398][361]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:411][362]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:422][363]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:434][364]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:446][365]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:458][366]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:471][367]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:484][368]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:495][369]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:507][370]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:519][371]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:532][372]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:544][373]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:555][374]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:568][375]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:580][376]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:592][377]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:605][378]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:617][379]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:629][380]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:648][381]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:656][382]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:665][383]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:676][384]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:688][385]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:701][386]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:713][387]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:724][388]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:736][389]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:748][390]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:761][391]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:773][392]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:784][393]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:796][394]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:808][395]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:820][396]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:833][397]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:844][398]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:857][399]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:869][400]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:881][401]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:894][402]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:905][403]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:918][404]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:930][405]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:942][406]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:954][407]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:966][408]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:978][409]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.19:990][410]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:002][411]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:014][412]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:026][413]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:038][414]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:050][415]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:064][416]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:075][417]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:083][418]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:089][418]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:099][419]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:112][420]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:126][421]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:138][422]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:150][423]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:164][424]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:179][425]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:195][426]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:209][427]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:225][428]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:240][429]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:254][430]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:270][431]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:285][432]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:300][433]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:315][434]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:331][435]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:346][436]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:361][437]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:380][438]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:394][439]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:412][440]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:426][441]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:441][442]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:457][443]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:472][444]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:487][445]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:502][446]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:518][447]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:534][448]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:548][449]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:564][450]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:579][451]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:595][452]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:611][453]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:625][454]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:642][455]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:658][456]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:677][457]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:702][458]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:710][459]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:718][460]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:732][461]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:748][462]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:762][463]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:776][464]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:791][465]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:805][466]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:820][467]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:839][468]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:852][469]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:868][470]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:884][471]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:899][472]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:915][473]LogUObjectHash: Warning: Ambiguous search, could be IntProperty /Script/DatasmithImporter.DatasmithCustomActorElement:GetProperty.i or IntProperty /Script/DatasmithImporter.DatasmithMetaDataElement:GetProperty.i
+[2019.05.25-20.57.20:950][474]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.05.25-20.57.29:094][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.57.29:200][309]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-20.57.29:437][309]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.05.25-20.57.29:924][345]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.05.25-20.57.29:965][345]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe1CC7F5DF418CBF23BD68438A0405CD5B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
+[2019.05.25-20.58.10:575][399]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-20.58.10:785][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.05.25-20.59.03:999][498]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_SetActorRotation' [Nie można odnaleźć elementu.]
+[2019.05.25-20.59.07:364][901]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-20.59.07:598][901]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.05.25-20.59.08:628][998]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-20.59.08:647][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.59.08:647][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-20.59.08:647][998]PIE: New page: PIE session: Runner (26 maj 2019, 00:59:08)
+[2019.05.25-20.59.08:647][998]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-20.59.08:650][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002766s)
+[2019.05.25-20.59.08:651][998]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-20.59.08:651][998]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2019.05.25-20.59.08:651][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003916s)
+[2019.05.25-20.59.08:694][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.05.25-20.59.08:714][998]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-20.59.08:722][998]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-20.59.08:722][998]LogInit: FAudioDevice initialized.
+[2019.05.25-20.59.08:754][998]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-20.59.08:755][998]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-22.59.08
+[2019.05.25-20.59.08:755][998]LogWorld: Bringing up level for play took: 0.000438
+[2019.05.25-20.59.08:772][998]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,341
+[2019.05.25-20.59.08:772][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.59.12:612][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.59.12:612][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.59.12:645][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-20.59.12:646][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-20.59.12:691][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-20.59.12:696][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.05.25-20.59.12:713][457]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.05.25-20.59.13:143][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-20.59.18:843][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.00.14:478][925]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.00.14:692][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.05.25-21.00.15:885][ 37]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.00.15:903][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.15:903][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.00.15:903][ 37]PIE: New page: PIE session: Runner (26 maj 2019, 01:00:15)
+[2019.05.25-21.00.15:904][ 37]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.00.15:906][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002275s)
+[2019.05.25-21.00.15:907][ 37]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.00.15:907][ 37]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2019.05.25-21.00.15:907][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003207s)
+[2019.05.25-21.00.15:951][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.05.25-21.00.15:971][ 37]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.00.15:979][ 37]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.00.15:979][ 37]LogInit: FAudioDevice initialized.
+[2019.05.25-21.00.16:012][ 37]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.00.16:013][ 37]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.00.16
+[2019.05.25-21.00.16:013][ 37]LogWorld: Bringing up level for play took: 0.000418
+[2019.05.25-21.00.16:030][ 37]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,918
+[2019.05.25-21.00.16:030][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.18:905][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.18:905][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.18:939][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.00.18:940][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.18:985][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.18:991][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.05.25-21.00.19:008][380]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.05.25-21.00.19:665][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.00.24:877][ 23]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.00.25:089][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.05.25-21.00.26:401][150]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.00.26:420][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.26:420][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.00.26:420][150]PIE: New page: PIE session: Runner (26 maj 2019, 01:00:26)
+[2019.05.25-21.00.26:421][150]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.00.26:423][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002205s)
+[2019.05.25-21.00.26:424][150]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.00.26:424][150]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.05.25-21.00.26:424][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003096s)
+[2019.05.25-21.00.26:464][150]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.05.25-21.00.26:483][150]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.00.26:491][150]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.00.26:491][150]LogInit: FAudioDevice initialized.
+[2019.05.25-21.00.26:523][150]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.00.26:524][150]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.00.26
+[2019.05.25-21.00.26:524][150]LogWorld: Bringing up level for play took: 0.000433
+[2019.05.25-21.00.26:541][150]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,571
+[2019.05.25-21.00.26:541][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.29:156][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.29:157][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.29:188][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.00.29:189][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.29:236][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.29:241][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.05.25-21.00.29:260][463]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.05.25-21.00.30:800][637]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_SetActorRotation' [Nie można odnaleźć elementu.]
+[2019.05.25-21.00.35:692][196]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.00.35:711][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.35:711][196]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.00.35:713][196]LogPlayLevel: [PlayLevel] Compiling Obstacle_Pipe before play...
+[2019.05.25-21.00.35:947][196]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.05.25-21.00.35:947][196]LogPlayLevel: PlayLevel: Blueprint regeneration took 235 ms (1 blueprints)
+[2019.05.25-21.00.35:947][196]PIE: New page: PIE session: Runner (26 maj 2019, 01:00:35)
+[2019.05.25-21.00.35:948][196]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.00.35:950][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002327s)
+[2019.05.25-21.00.35:951][196]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.00.35:951][196]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2019.05.25-21.00.35:951][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003068s)
+[2019.05.25-21.00.35:993][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.05.25-21.00.36:013][196]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.00.36:020][196]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.00.36:021][196]LogInit: FAudioDevice initialized.
+[2019.05.25-21.00.36:046][196]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.00.36:047][196]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.00.36
+[2019.05.25-21.00.36:047][196]LogWorld: Bringing up level for play took: 0.000596
+[2019.05.25-21.00.36:064][196]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,952
+[2019.05.25-21.00.36:064][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.36:092][197]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062667 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.05.25-21.00.38:145][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.38:146][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.38:178][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.00.38:179][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.38:225][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.38:229][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.05.25-21.00.38:247][444]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.05.25-21.00.38:545][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.00.42:617][941]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.00.42:636][941]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.42:637][941]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.00.42:639][941]LogPlayLevel: [PlayLevel] Compiling Obstacle_Pipe before play...
+[2019.05.25-21.00.42:871][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.05.25-21.00.42:871][941]LogPlayLevel: PlayLevel: Blueprint regeneration took 234 ms (1 blueprints)
+[2019.05.25-21.00.42:871][941]PIE: New page: PIE session: Runner (26 maj 2019, 01:00:42)
+[2019.05.25-21.00.42:872][941]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.00.42:874][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002161s)
+[2019.05.25-21.00.42:875][941]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.00.42:875][941]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.05.25-21.00.42:875][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003044s)
+[2019.05.25-21.00.42:916][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.05.25-21.00.42:935][941]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.00.42:943][941]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.00.42:943][941]LogInit: FAudioDevice initialized.
+[2019.05.25-21.00.42:971][941]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.00.42:972][941]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.00.42
+[2019.05.25-21.00.42:972][941]LogWorld: Bringing up level for play took: 0.000421
+[2019.05.25-21.00.42:989][941]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,124
+[2019.05.25-21.00.42:989][941]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.43:018][942]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066954 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.05.25-21.00.44:143][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.44:144][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.44:175][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.00.44:176][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.44:220][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.44:224][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.05.25-21.00.44:244][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.05.25-21.00.44:566][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.00.50:144][746]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.00.50:163][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.50:163][746]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.00.50:165][746]LogPlayLevel: [PlayLevel] Compiling Obstacle_Pipe before play...
+[2019.05.25-21.00.50:404][746]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.05.25-21.00.50:404][746]LogPlayLevel: PlayLevel: Blueprint regeneration took 240 ms (1 blueprints)
+[2019.05.25-21.00.50:404][746]PIE: New page: PIE session: Runner (26 maj 2019, 01:00:50)
+[2019.05.25-21.00.50:405][746]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.00.50:407][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002063s)
+[2019.05.25-21.00.50:408][746]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.00.50:408][746]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2019.05.25-21.00.50:408][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003084s)
+[2019.05.25-21.00.50:451][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.05.25-21.00.50:471][746]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.00.50:478][746]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.00.50:478][746]LogInit: FAudioDevice initialized.
+[2019.05.25-21.00.50:507][746]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.00.50:508][746]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.00.50
+[2019.05.25-21.00.50:508][746]LogWorld: Bringing up level for play took: 0.000524
+[2019.05.25-21.00.50:525][746]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,587
+[2019.05.25-21.00.50:525][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.50:554][747]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068480 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.05.25-21.00.59:189][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.59:189][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.59:216][761]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.00.59:217][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.00.59:264][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.00.59:270][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.05.25-21.00.59:298][764]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.05.25-21.00.59:856][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.01.01:529][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.05.25-21.01.01:553][965]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_PipeAE173BA6477F5852E17BD990F54F8EDC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
+[2019.05.25-21.01.48:600][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.05.25-21.01.50:762][959]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.25-21.01.50:775][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.25-21.01.51:100][959]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.Obstacle_Pipe
+[2019.05.25-21.01.51:411][959]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2019.05.25-21.01.51:651][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.05.25-21.01.51:688][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.05.25-21.01.51:721][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.05.25-21.01.54:881][241]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.05.25-21.02.07:581][757]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.Obstacle_Pipe
+[2019.05.25-21.02.31:490][537]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.02.31:660][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.05.25-21.02.42:681][850]LogEditorTransaction: Undo Modify Component(s)
+[2019.05.25-21.02.44:015][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.02.54:241][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.02.54:340][239]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.02.54:520][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.05.25-21.02.56:550][459]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.MasterTile
+[2019.05.25-21.02.59:211][738]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.25-21.03.06:141][562]BlueprintLog: New page: Compile MasterTile
+[2019.05.25-21.03.06:321][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.05.25-21.03.07:135][655]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.03.07:152][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.03.07:153][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.03.07:153][655]PIE: New page: PIE session: Runner (26 maj 2019, 01:03:07)
+[2019.05.25-21.03.07:153][655]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.03.07:155][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002242s)
+[2019.05.25-21.03.07:156][655]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.03.07:156][655]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.05.25-21.03.07:156][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003266s)
+[2019.05.25-21.03.07:195][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.05.25-21.03.07:215][655]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.03.07:224][655]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.03.07:224][655]LogInit: FAudioDevice initialized.
+[2019.05.25-21.03.07:256][655]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.03.07:257][655]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.03.07
+[2019.05.25-21.03.07:257][655]LogWorld: Bringing up level for play took: 0.000595
+[2019.05.25-21.03.07:274][655]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,161
+[2019.05.25-21.03.07:274][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.03.25:674][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.03.25:675][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.03.25:707][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.03.25:708][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.03.25:751][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.03.25:755][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.05.25-21.03.25:780][862]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.05.25-21.03.36:918][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.03.53:413][591]LogEditorTransaction: Undo Modify Component(s)
+[2019.05.25-21.03.58:120][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.03.58:211][159]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.03.58:404][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.05.25-21.03.59:840][323]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.03.59:858][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.03.59:858][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.03.59:858][323]PIE: New page: PIE session: Runner (26 maj 2019, 01:03:59)
+[2019.05.25-21.03.59:858][323]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.03.59:860][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002364s)
+[2019.05.25-21.03.59:861][323]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.03.59:861][323]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.05.25-21.03.59:861][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003413s)
+[2019.05.25-21.03.59:900][323]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.05.25-21.03.59:920][323]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.03.59:927][323]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.03.59:927][323]LogInit: FAudioDevice initialized.
+[2019.05.25-21.03.59:956][323]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.03.59:957][323]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.03.59
+[2019.05.25-21.03.59:957][323]LogWorld: Bringing up level for play took: 0.000625
+[2019.05.25-21.03.59:973][323]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,861
+[2019.05.25-21.03.59:973][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.06:120][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.06:120][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.04.06:154][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.04.06:155][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.06:196][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.04.06:201][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.05.25-21.04.06:226][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.05.25-21.04.18:886][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.04.24:742][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.04.24:825][913]BlueprintLog: New page: Compile Obstacle_Pipe
+[2019.05.25-21.04.25:009][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.05.25-21.04.26:848][127]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.04.26:865][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.26:865][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.04.26:865][127]PIE: New page: PIE session: Runner (26 maj 2019, 01:04:26)
+[2019.05.25-21.04.26:865][127]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.04.26:868][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2019.05.25-21.04.26:868][127]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.04.26:869][127]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2019.05.25-21.04.26:869][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003511s)
+[2019.05.25-21.04.26:908][127]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.05.25-21.04.26:927][127]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.04.26:935][127]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.04.26:935][127]LogInit: FAudioDevice initialized.
+[2019.05.25-21.04.26:962][127]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.04.26:963][127]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.04.26
+[2019.05.25-21.04.26:963][127]LogWorld: Bringing up level for play took: 0.000430
+[2019.05.25-21.04.26:980][127]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,132
+[2019.05.25-21.04.26:981][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.32:829][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.32:829][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.04.32:862][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.04.32:863][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.32:903][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.04.32:908][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.05.25-21.04.32:930][828]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.05.25-21.04.33:822][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.04.42:787][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.04.48:494][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.04.51:698][747]BlueprintLog: New page: Compile MasterTile
+[2019.05.25-21.04.51:882][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.05.25-21.04.52:910][864]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.04.52:927][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.04.52:927][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.04.52:927][864]PIE: New page: PIE session: Runner (26 maj 2019, 01:04:52)
+[2019.05.25-21.04.52:927][864]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.04.52:930][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002379s)
+[2019.05.25-21.04.52:930][864]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.04.52:931][864]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2019.05.25-21.04.52:931][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003363s)
+[2019.05.25-21.04.52:970][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.05.25-21.04.52:990][864]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.04.52:997][864]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.04.52:998][864]LogInit: FAudioDevice initialized.
+[2019.05.25-21.04.53:026][864]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.04.53:027][864]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.04.53
+[2019.05.25-21.04.53:027][864]LogWorld: Bringing up level for play took: 0.000609
+[2019.05.25-21.04.53:044][864]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,068
+[2019.05.25-21.04.53:044][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.06:392][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.06:392][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.05.06:426][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.05.06:426][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.06:468][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.05.06:473][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.05.25-21.05.06:514][465]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.05.25-21.05.08:607][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.05.18:190][447]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.05.18:206][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.18:206][447]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.05.18:209][447]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.05.25-21.05.18:403][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.05.25-21.05.18:403][447]LogPlayLevel: PlayLevel: Blueprint regeneration took 197 ms (1 blueprints)
+[2019.05.25-21.05.18:403][447]PIE: New page: PIE session: Runner (26 maj 2019, 01:05:18)
+[2019.05.25-21.05.18:404][447]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.05.18:406][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002365s)
+[2019.05.25-21.05.18:407][447]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.05.18:407][447]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2019.05.25-21.05.18:407][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003377s)
+[2019.05.25-21.05.18:445][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.05.25-21.05.18:465][447]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.05.18:472][447]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.05.18:472][447]LogInit: FAudioDevice initialized.
+[2019.05.25-21.05.18:499][447]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.05.18:500][447]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.05.18
+[2019.05.25-21.05.18:500][447]LogWorld: Bringing up level for play took: 0.000549
+[2019.05.25-21.05.18:517][447]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,595
+[2019.05.25-21.05.18:518][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.28:169][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.28:170][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.05.28:199][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.05.28:200][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.05.28:239][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.05.28:244][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.05.25-21.05.28:268][599]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.05.25-21.05.28:858][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.05.25-21.05.28:864][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-21.05.28:925][665]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile107574F648A23543DFB5D0941E344F6F.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.uasset'
+[2019.05.25-21.05.28:938][665]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe30E70CDF4CFCD31394ACD4816B9251C5.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
+[2019.05.25-21.05.29:748][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.05.36:138][471]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.05.25-21.09.18:335][ 84]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.05.25-21.09.18:545][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.05.25-21.09.19:751][217]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.09.19:772][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.19:772][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.09.19:772][217]PIE: New page: PIE session: Runner (26 maj 2019, 01:09:19)
+[2019.05.25-21.09.19:772][217]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.09.19:774][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002362s)
+[2019.05.25-21.09.19:775][217]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.09.19:775][217]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2019.05.25-21.09.19:776][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003528s)
+[2019.05.25-21.09.19:817][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.05.25-21.09.19:837][217]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.09.19:847][217]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.09.19:847][217]LogInit: FAudioDevice initialized.
+[2019.05.25-21.09.19:879][217]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.09.19:880][217]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.09.19
+[2019.05.25-21.09.19:880][217]LogWorld: Bringing up level for play took: 0.000544
+[2019.05.25-21.09.19:897][217]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,785
+[2019.05.25-21.09.19:898][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.30:354][469]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.25-21.09.39:960][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.39:960][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.09.39:996][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.09.39:996][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.40:038][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.09.40:043][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.05.25-21.09.40:059][623]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.05.25-21.09.40:514][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.09.47:976][568]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.09.47:997][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.47:997][568]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.09.47:999][568]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.05.25-21.09.48:230][568]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.05.25-21.09.48:230][568]LogPlayLevel: PlayLevel: Blueprint regeneration took 233 ms (1 blueprints)
+[2019.05.25-21.09.48:230][568]PIE: New page: PIE session: Runner (26 maj 2019, 01:09:48)
+[2019.05.25-21.09.48:230][568]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.09.48:232][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002095s)
+[2019.05.25-21.09.48:233][568]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.09.48:233][568]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2019.05.25-21.09.48:233][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003173s)
+[2019.05.25-21.09.48:273][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.05.25-21.09.48:293][568]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.09.48:301][568]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.09.48:301][568]LogInit: FAudioDevice initialized.
+[2019.05.25-21.09.48:332][568]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.09.48:333][568]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.09.48
+[2019.05.25-21.09.48:333][568]LogWorld: Bringing up level for play took: 0.000570
+[2019.05.25-21.09.48:350][568]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,237
+[2019.05.25-21.09.48:350][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.50:249][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.50:249][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.09.50:282][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.09.50:283][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.50:326][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.09.50:331][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.05.25-21.09.50:364][795]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.05.25-21.09.50:614][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.09.58:004][701]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.09.58:023][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.09.58:024][701]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.09.58:026][701]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.05.25-21.09.58:259][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2019.05.25-21.09.58:259][701]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2019.05.25-21.09.58:260][701]PIE: New page: PIE session: Runner (26 maj 2019, 01:09:58)
+[2019.05.25-21.09.58:260][701]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.09.58:263][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002406s)
+[2019.05.25-21.09.58:263][701]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.09.58:263][701]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.05.25-21.09.58:263][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003338s)
+[2019.05.25-21.09.58:302][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.05.25-21.09.58:321][701]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.09.58:329][701]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.09.58:329][701]LogInit: FAudioDevice initialized.
+[2019.05.25-21.09.58:358][701]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.09.58:359][701]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.09.58
+[2019.05.25-21.09.58:359][701]LogWorld: Bringing up level for play took: 0.000468
+[2019.05.25-21.09.58:376][701]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,264
+[2019.05.25-21.09.58:376][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.10.02:722][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.10.02:722][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.10.02:750][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.10.02:751][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.10.02:794][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.10.02:798][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.05.25-21.10.02:833][221]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.05.25-21.10.03:990][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.05.25-21.10.03:996][355]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-21.10.04:081][355]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacterF2C31D154E80CFD3268AADBAB525B1B8.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.05.25-21.10.28:015][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.12.41:470][332]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.12.41:490][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.12.41:490][332]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.12.41:493][332]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.05.25-21.12.41:698][332]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.05.25-21.12.41:698][332]LogPlayLevel: PlayLevel: Blueprint regeneration took 208 ms (1 blueprints)
+[2019.05.25-21.12.41:698][332]PIE: New page: PIE session: Runner (26 maj 2019, 01:12:41)
+[2019.05.25-21.12.41:699][332]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.12.41:701][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002194s)
+[2019.05.25-21.12.41:701][332]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.12.41:702][332]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2019.05.25-21.12.41:702][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003444s)
+[2019.05.25-21.12.41:742][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.05.25-21.12.41:762][332]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.12.41:771][332]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.12.41:771][332]LogInit: FAudioDevice initialized.
+[2019.05.25-21.12.41:805][332]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.12.41:806][332]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.12.41
+[2019.05.25-21.12.41:806][332]LogWorld: Bringing up level for play took: 0.000416
+[2019.05.25-21.12.41:823][332]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,71
+[2019.05.25-21.12.41:823][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.12.48:235][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.12.48:235][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.12.48:263][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.12.48:264][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.12.48:306][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.12.48:311][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.05.25-21.12.48:349][937]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2019.05.25-21.12.48:827][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.12.53:942][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.12.54:667][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.12.54:688][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.12.54:688][687]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.12.54:690][687]LogPlayLevel: [PlayLevel] Compiling Obstacle_Pipe before play...
+[2019.05.25-21.12.54:906][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.05.25-21.12.54:906][687]LogPlayLevel: PlayLevel: Blueprint regeneration took 217 ms (1 blueprints)
+[2019.05.25-21.12.54:906][687]PIE: New page: PIE session: Runner (26 maj 2019, 01:12:54)
+[2019.05.25-21.12.54:907][687]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.12.54:909][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002352s)
+[2019.05.25-21.12.54:910][687]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.12.54:910][687]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2019.05.25-21.12.54:910][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003342s)
+[2019.05.25-21.12.54:950][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2019.05.25-21.12.54:970][687]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.12.54:977][687]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.12.54:977][687]LogInit: FAudioDevice initialized.
+[2019.05.25-21.12.55:004][687]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.12.55:004][687]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.12.55
+[2019.05.25-21.12.55:005][687]LogWorld: Bringing up level for play took: 0.000477
+[2019.05.25-21.12.55:022][687]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,09
+[2019.05.25-21.12.55:022][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.05:770][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.05:770][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.13.05:800][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.13.05:800][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.05:844][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.13.05:848][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.05.25-21.13.05:871][974]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2019.05.25-21.13.27:333][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.13.27:449][271]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.13.27:471][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.27:471][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.13.27:471][271]PIE: New page: PIE session: Runner (26 maj 2019, 01:13:27)
+[2019.05.25-21.13.27:471][271]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.13.27:473][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002360s)
+[2019.05.25-21.13.27:474][271]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.13.27:474][271]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2019.05.25-21.13.27:474][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003142s)
+[2019.05.25-21.13.27:515][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.05.25-21.13.27:538][271]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.13.27:546][271]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.13.27:546][271]LogInit: FAudioDevice initialized.
+[2019.05.25-21.13.27:577][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.13.27:577][271]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.13.27
+[2019.05.25-21.13.27:578][271]LogWorld: Bringing up level for play took: 0.000646
+[2019.05.25-21.13.27:596][271]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,483
+[2019.05.25-21.13.27:596][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.41:430][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.41:430][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.13.41:461][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.13.41:462][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.41:504][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.13.41:508][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.05.25-21.13.41:547][923]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2019.05.25-21.13.42:557][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.13.42:658][ 56]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.13.42:677][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.13.42:677][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.13.42:678][ 56]PIE: New page: PIE session: Runner (26 maj 2019, 01:13:42)
+[2019.05.25-21.13.42:678][ 56]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.13.42:680][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002545s)
+[2019.05.25-21.13.42:681][ 56]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.13.42:681][ 56]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2019.05.25-21.13.42:681][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003518s)
+[2019.05.25-21.13.42:722][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.05.25-21.13.42:742][ 56]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.13.42:752][ 56]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.13.42:752][ 56]LogInit: FAudioDevice initialized.
+[2019.05.25-21.13.42:780][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.13.42:781][ 56]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.13.42
+[2019.05.25-21.13.42:781][ 56]LogWorld: Bringing up level for play took: 0.000517
+[2019.05.25-21.13.42:799][ 56]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,313
+[2019.05.25-21.13.42:799][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.14.16:669][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.14.16:669][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.14.16:704][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.14.16:704][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.14.16:747][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.14.16:752][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.05.25-21.14.16:769][961]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2019.05.25-21.14.29:521][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.14.46:913][242]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.14.46:933][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.14.46:933][242]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.25-21.14.46:936][242]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.05.25-21.14.47:143][242]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.05.25-21.14.47:143][242]LogPlayLevel: PlayLevel: Blueprint regeneration took 209 ms (1 blueprints)
+[2019.05.25-21.14.47:143][242]PIE: New page: PIE session: Runner (26 maj 2019, 01:14:47)
+[2019.05.25-21.14.47:143][242]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.14.47:146][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2019.05.25-21.14.47:146][242]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.14.47:147][242]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2019.05.25-21.14.47:147][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003333s)
+[2019.05.25-21.14.47:182][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.05.25-21.14.47:200][242]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.14.47:208][242]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.14.47:208][242]LogInit: FAudioDevice initialized.
+[2019.05.25-21.14.47:239][242]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.14.47:240][242]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.14.47
+[2019.05.25-21.14.47:240][242]LogWorld: Bringing up level for play took: 0.000579
+[2019.05.25-21.14.47:257][242]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,145
+[2019.05.25-21.14.47:257][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.15.34:708][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.15.34:708][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.15.34:737][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.15.34:738][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.15.34:782][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.15.34:786][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.05.25-21.15.34:822][907]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.05.25-21.15.40:240][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.15.40:706][102]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-21.15.40:727][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.15.40:728][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-21.15.40:728][102]PIE: New page: PIE session: Runner (26 maj 2019, 01:15:40)
+[2019.05.25-21.15.40:728][102]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-21.15.40:730][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2019.05.25-21.15.40:731][102]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-21.15.40:731][102]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.05.25-21.15.40:731][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003533s)
+[2019.05.25-21.15.40:770][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.05.25-21.15.40:789][102]LogInit: XAudio2 using 'Headset (MC-1001HF Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
+[2019.05.25-21.15.40:797][102]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.05.25-21.15.40:797][102]LogInit: FAudioDevice initialized.
+[2019.05.25-21.15.40:827][102]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-21.15.40:828][102]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-23.15.40
+[2019.05.25-21.15.40:828][102]LogWorld: Bringing up level for play took: 0.000435
+[2019.05.25-21.15.40:846][102]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,266
+[2019.05.25-21.15.40:846][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.16.12:937][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.16.12:938][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.16.12:973][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-21.16.12:974][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-21.16.13:017][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-21.16.13:022][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.05.25-21.16.13:039][949]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.05.25-21.16.13:366][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-21.16.14:512][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.05.25-21.16.14:592][117]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile1519549042EA316C027713B8AEDFC100.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/MasterTile.uasset'
+[2019.05.25-21.16.14:608][117]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Pipe3E4A779549E16DED16EC158FD6427768.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/FloorBlueprint/Obstacle_Pipe.uasset'
