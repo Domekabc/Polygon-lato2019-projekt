@@ -1,4 +1,4 @@
-﻿Log file open, 05/23/19 00:40:19
+﻿Log file open, 05/25/19 19:46:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: TempleRunner
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.202497
+LogStats: Stats thread started at 0.201089
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -130,12 +130,12 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.22-CL-6063286
-LogInit: Engine Version: 4.22.1-6063286+++UE4+Release-4.22
+LogInit: Build: ++UE4+Release-4.22-CL-6574378
+LogInit: Engine Version: 4.22.2-6574378+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
 LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, GPU: Radeon (TM) RX 480 Graphics
-LogInit: Compiled (64-bit): Apr 24 2019 04:36:48
+LogInit: Compiled (64-bit): May 20 2019 09:54:56
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
@@ -170,617 +170,547 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:728][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:732][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.05.22-22.40.19:732][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:732][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.05.22-22.40.19:733][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.05.22-22.40.19:733][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.22-22.40.19:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.05.22-22.40.19:742][  0]LogHAL: Display: Platform has ~ 16 GB [17141874688 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.05.22-22.40.19:742][  0]LogInit: Going up to parent DeviceProfile []
-[2019.05.22-22.40.19:742][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.05.22-22.40.19:742][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.05.22-22.40.19:743][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.05.22-22.40.19:744][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.05.22-22.40.19:744][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.05.22-22.40.19:744][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
-[2019.05.22-22.40.19:744][  0]LogInit: Computer: DESKTOP-EAHEA7G
-[2019.05.22-22.40.19:744][  0]LogInit: User: anderzejn
-[2019.05.22-22.40.19:744][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.05.22-22.40.19:744][  0]LogInit: High frequency timer resolution =2.929688 MHz
-[2019.05.22-22.40.19:744][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.05.22-22.40.19:744][  0]LogMemory: Platform Memory Stats for Windows
-[2019.05.22-22.40.19:744][  0]LogMemory: Process Physical Memory: 97.42 MB used, 97.42 MB peak
-[2019.05.22-22.40.19:744][  0]LogMemory: Process Virtual Memory: 92.06 MB used, 92.06 MB peak
-[2019.05.22-22.40.19:744][  0]LogMemory: Physical Memory: 5062.47 MB used,  11285.29 MB free, 16347.77 MB total
-[2019.05.22-22.40.19:744][  0]LogMemory: Virtual Memory: 4630.82 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.05.22-22.40.19:771][  0]LogInit: Using OS detected language (pl-PL).
-[2019.05.22-22.40.19:771][  0]LogInit: Using OS detected locale (pl-PL).
-[2019.05.22-22.40.19:772][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2019.05.22-22.40.19:773][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2019.05.22-22.40.19:775][  0]LogInit: Setting process to per monitor DPI aware
-[2019.05.22-22.40.19:804][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.05.22-22.40.19:804][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.05.22-22.40.20:006][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.22-22.40.20:006][  0]LogD3D11RHI: D3D11 adapters:
-[2019.05.22-22.40.20:041][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
-[2019.05.22-22.40.20:041][  0]LogD3D11RHI:       8137/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.05.22-22.40.20:044][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.05.22-22.40.20:044][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.05.22-22.40.20:044][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.05.22-22.40.20:050][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.05.22-22.40.20:050][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2019.05.22-22.40.20:050][  0]LogWindows: EnumDisplayDevices:
-[2019.05.22-22.40.20:051][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
-[2019.05.22-22.40.20:051][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:052][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:052][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:053][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:053][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:054][  0]LogWindows:    6. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2019.05.22-22.40.20:054][  0]LogWindows: DebugString: FoundDriverCount:7 
-[2019.05.22-22.40.20:054][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
-[2019.05.22-22.40.20:054][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.3 (internal:24.20.13019.1008, unified:24.20.13019.1008)
-[2019.05.22-22.40.20:054][  0]LogD3D11RHI:      Driver Date: 9-25-2018
-[2019.05.22-22.40.20:054][  0]LogRHI: Texture pool is 5695 MB (70% of 8137 MB)
-[2019.05.22-22.40.20:206][  0]LogD3D11RHI: Async texture creation enabled
-[2019.05.22-22.40.20:210][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.22-22.40.20:210][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.22-22.40.20:210][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.22-22.40.20:217][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.05.22-22.40.20:561][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.05.22-22.40.20:577][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.05.22-22.40.20:593][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.05.22-22.40.20:609][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.05.22-22.40.20:625][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.05.22-22.40.20:643][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.05.22-22.40.20:659][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.05.22-22.40.20:678][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.05.22-22.40.20:688][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.05.22-22.40.20:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.05.22-22.40.20:778][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.05.22-22.40.20:832][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.05.22-22.40.20:832][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.05.22-22.40.20:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.05.22-22.40.20:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.05.22-22.40.20:871][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.05.22-22.40.20:885][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.05.22-22.40.20:899][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.05.22-22.40.20:914][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.05.22-22.40.20:964][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.05.22-22.40.20:964][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.05.22-22.40.20:964][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.05.22-22.40.20:976][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.05.22-22.40.21:052][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Intermediate/Shaders/WorkingDirectory/3524/).
-[2019.05.22-22.40.21:052][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/anderzejn/AppData/Local/Temp/UnrealShaderWorkingDir/A24681C04D9B9C388BDD3487C2727D5D/'.
-[2019.05.22-22.40.21:056][  0]LogXGEController: Cleaning working directory: C:/Users/anderzejn/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.05.22-22.40.21:056][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.05.22-22.40.21:056][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.05.22-22.40.21:056][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.05.22-22.40.21:711][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.05.22-22.40.21:765][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.05.22-22.40.21:765][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.05.22-22.40.21:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.05.22-22.40.21:766][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.05.22-22.40.21:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.22-22.40.21:766][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.05.22-22.40.21:780][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.05.22-22.40.21:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.05.22-22.40.21:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/anderzejn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.05.22-22.40.21:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.05.22-22.40.21:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.05.22-22.40.21:820][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.05.22-22.40.21:821][  0]LogSlate: Using FreeType 2.6.0
-[2019.05.22-22.40.21:821][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.22-22.40.21:922][  0]LogAssetRegistry: FAssetRegistry took 0.0351 seconds to start up
-[2019.05.22-22.40.22:309][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.22-22.40.22:474][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.05.22-22.40.22:474][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.05.22-22.40.22:474][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.05.22-22.40.22:474][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.05.22-22.40.22:475][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.05.22-22.40.22:486][  0]LogNetVersion: TempleRunner 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 81763283)
-[2019.05.22-22.40.22:978][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.060376 seconds
-[2019.05.22-22.40.22:986][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.05.22-22.40.22:986][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.05.22-22.40.22:986][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.05.22-22.40.24:162][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.05.22-22.40.24:176][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.05.22-22.40.24:294][  0]SourceControl: Source control is disabled
-[2019.05.22-22.40.24:295][  0]SourceControl: Source control is disabled
-[2019.05.22-22.40.24:296][  0]SourceControl: Source control is disabled
-[2019.05.22-22.40.24:298][  0]SourceControl: Source control is disabled
-[2019.05.22-22.40.24:436][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.05.22-22.40.24:511][  0]LogOcInput: OculusInput pre-init called
-[2019.05.22-22.40.27:836][  0]LogEngine: Initializing Engine...
-[2019.05.22-22.40.27:838][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.22-22.40.27:839][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.05.22-22.40.28:074][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.05.22-22.40.28:096][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.05.22-22.40.28:114][  0]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.05.22-22.40.28:135][  0]LogInit: FAudioDevice initialized.
-[2019.05.22-22.40.28:135][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.05.22-22.40.28:223][  0]LogDerivedDataCache: Saved boot cache 0.09s 72MB C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.05.22-22.40.28:223][  0]LogInit: Texture streaming: Enabled
-[2019.05.22-22.40.28:254][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.05.22-22.40.28:283][  0]LogInit: Transaction tracking system initialized
-[2019.05.22-22.40.28:327][  0]BlueprintLog: New page: Editor Load
-[2019.05.22-22.40.28:484][  0]LocalizationService: Localization service is disabled
-[2019.05.22-22.40.28:832][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/' took 0.02s
-[2019.05.22-22.40.28:832][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.05.22-22.40.28:832][  0]LogCook: Display: Mobile HDR setting 1
-[2019.05.22-22.40.30:600][  0]SourceControl: Source control is disabled
-[2019.05.22-22.40.30:600][  0]Cmd: MAP LOAD FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Maps/Runner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.22-22.40.30:600][  0]LogEditorServer: Warning: Can't find file 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Maps/Runner.umap'
-[2019.05.22-22.40.30:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.22-22.40.30:600][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,109ms to complete.
-[2019.05.22-22.40.30:600][  0]LogFileHelpers: Loading map 'Runner' took 0.000
-[2019.05.22-22.40.31:888][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.05.22-22.40.31:939][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.40.31:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.40.31:956][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.40.31:964][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.40.31:977][  0]LogCollectionManager: Loaded 0 collections in 0.003910 seconds
-[2019.05.22-22.40.31:996][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Collections/' took 0.01s
-[2019.05.22-22.40.31:996][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Developers/anderzejn/Collections/' took 0.00s
-[2019.05.22-22.40.31:996][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Collections/' took 0.00s
-[2019.05.22-22.40.31:996][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.05.22-22.40.32:006][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2866 classes and 729 folders.
-[2019.05.22-22.40.32:020][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.22-22.40.32:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:030][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:030][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:034][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:034][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:038][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:039][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.22-22.40.32:111][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.05.22-22.40.32:123][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2019.05.22-22.40.32:176][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.05.22-22.40.32:180][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.05.22-22.40.32:182][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.05.22-22.40.32:236][  0]LogRenderer: Reallocating scene render targets to support 1448x608 Format 10 NumSamples 1 (Frame:1).
-[2019.05.22-22.40.32:340][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.22-22.40.32:340][  0]LogLoad: (Engine Initialization) Total time: 15.39 seconds
-[2019.05.22-22.40.32:340][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.05.22-22.40.32:350][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.22-22.40.32:388][  0]LogAssetRegistry: Asset discovery search completed in 10.4891 seconds
-[2019.05.22-22.40.32:390][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.05.22-22.40.32:390][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2019.05.22-22.40.32:392][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.05.22-22.40.32:411][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.22-22.40.35:310][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.22-22.40.40:309][910]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.22-22.40.57:181][811]LogLinker: Warning: Can't find file '/Game/Runner/Maps/Runner_BuiltData'
-[2019.05.22-22.40.57:182][811]LogLinker: Warning: Can't find file for asset '/Game/Runner/Maps/Runner_BuiltData' while loading NULL.
-[2019.05.22-22.40.57:183][811]LogLinker: Warning: Can't find file '/Game/Runner/Maps/Runner_BuiltData'
-[2019.05.22-22.40.57:183][811]LogLinker: Warning: Can't find file for asset '/Game/Runner/Maps/Runner_BuiltData' while loading NULL.
-[2019.05.22-22.40.57:184][811]LogLinker: Warning: Can't find file '/Game/Runner/Maps/Runner_BuiltData'
-[2019.05.22-22.40.57:184][811]LogLinker: Warning: Can't find file for asset '/Game/Runner/Maps/Runner_BuiltData' while loading NULL.
-[2019.05.22-22.40.57:184][811]LogLinker: Warning: Can't find file '/Game/Runner/Maps/Runner_BuiltData'
-[2019.05.22-22.40.57:184][811]LogLinker: Warning: Can't find file for asset '/Game/Runner/Maps/Runner_BuiltData' while loading NULL.
-[2019.05.22-22.40.57:188][811]LogLinker: Warning: Can't find file '/Game/Runner/Maps/Runner_BuiltData'
-[2019.05.22-22.40.57:189][811]LoadErrors: Failed to load /Game/Runner/Maps/Runner_BuiltData.Runner_BuiltData Referenced by PersistentLevel
-[2019.05.22-22.40.57:189][811]LogLinker: Warning: Can't find file for asset '/Game/Runner/Maps/Runner_BuiltData' while loading NULL.
-[2019.05.22-22.40.57:208][811]LogAIModule: Creating AISystem for world Runner
-[2019.05.22-22.40.57:217][811]LogAssetEditorManager: Opening Asset editor for World /Game/Runner/Maps/Runner.Runner
-[2019.05.22-22.40.57:249][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2019.05.22-22.40.57:249][811]Cmd: MAP LOAD FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Maps/Runner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.22-22.40.57:249][811]LightingResults: New page: Lighting Build
-[2019.05.22-22.40.57:254][811]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
-[2019.05.22-22.40.57:255][811]LoadErrors: New page: Loading map: Runner.umap
-[2019.05.22-22.40.57:255][811]MapCheck: New page: Map Check
-[2019.05.22-22.40.57:255][811]LightingResults: New page: Lighting Build
-[2019.05.22-22.40.57:283][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2019.05.22-22.40.57:341][811]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.22-22.40.57:371][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2019.05.22-22.40.57:391][811]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.22-22.40.57:391][811]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,091ms to complete.
-[2019.05.22-22.40.57:391][811]LogFileHelpers: Loading map 'Runner' took 0.142
-[2019.05.22-22.40.58:538][943]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.22-22.40.58:549][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.40.58:549][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.22-22.40.58:549][943]PIE: New page: PIE session: Runner (23 maj 2019, 02:40:58)
-[2019.05.22-22.40.58:562][943]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
-[2019.05.22-22.40.58:566][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003235s)
-[2019.05.22-22.40.58:566][943]LogAIModule: Creating AISystem for world Runner
-[2019.05.22-22.40.58:566][943]LogPlayLevel: PIE: World Init took: (0.000732s)
-[2019.05.22-22.40.58:566][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004503s)
-[2019.05.22-22.40.58:591][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2019.05.22-22.40.58:602][943]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.05.22-22.40.58:616][943]LogInit: FAudioDevice initialized.
-[2019.05.22-22.40.58:662][943]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.05.22-22.40.58:664][943]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.23-00.40.58
-[2019.05.22-22.40.58:664][943]LogWorld: Bringing up level for play took: 0.001052
-[2019.05.22-22.40.58:687][943]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.05.22-22.40.58:693][943]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,748
-[2019.05.22-22.40.58:693][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.41.01:163][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.41.01:163][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.41.01:194][236]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.22-22.41.01:195][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.41.01:225][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.41.01:228][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
-[2019.05.22-22.41.01:267][240]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.05.22-22.41.03:348][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.22-22.41.05:817][761]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Runner/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2019.05.22-22.41.06:068][761]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
-[2019.05.22-22.41.08:657][958]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.05.22-22.41.09:399][ 36]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.05.22-22.41.31:548][642]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.41.31:757][642]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
-[2019.05.22-22.41.44:307][100]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.05.22-22.41.57:395][643]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.41.57:585][643]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
-[2019.05.22-22.42.07:932][868]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.42.08:129][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2019.05.22-22.43.25:254][806]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.43.25:458][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2019.05.22-22.43.26:872][967]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.22-22.43.26:889][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.43.26:889][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.22-22.43.26:889][967]PIE: New page: PIE session: Runner (23 maj 2019, 02:43:26)
-[2019.05.22-22.43.26:889][967]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
-[2019.05.22-22.43.26:892][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002595s)
-[2019.05.22-22.43.26:893][967]LogAIModule: Creating AISystem for world Runner
-[2019.05.22-22.43.26:894][967]LogPlayLevel: PIE: World Init took: (0.001386s)
-[2019.05.22-22.43.26:894][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004234s)
-[2019.05.22-22.43.26:931][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2019.05.22-22.43.26:942][967]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.05.22-22.43.26:957][967]LogInit: FAudioDevice initialized.
-[2019.05.22-22.43.26:988][967]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.05.22-22.43.26:989][967]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.23-00.43.26
-[2019.05.22-22.43.26:989][967]LogWorld: Bringing up level for play took: 0.000734
-[2019.05.22-22.43.27:006][967]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,061
-[2019.05.22-22.43.27:006][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.43.27:858][ 67]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.29:427][255]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.29:611][277]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.29:786][298]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.30:763][415]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.30:947][437]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.31:130][459]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.31:289][478]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.32:056][570]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.32:273][596]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.32:449][617]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.32:615][637]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.33:265][715]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.33:475][740]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.33:674][764]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.34:793][898]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.35:011][924]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.35:194][946]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.35:386][969]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.36:169][ 63]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.36:361][ 86]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.36:553][109]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.36:753][133]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.37:428][214]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.37:637][239]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.37:803][259]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.37:996][282]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.38:897][390]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.39:106][415]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.39:264][434]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.39:440][455]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.40:516][584]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.40:750][612]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.40:941][635]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.43.43:110][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.43.43:111][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.43.43:138][895]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.22-22.43.43:139][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.43.43:178][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.43.43:182][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
-[2019.05.22-22.43.43:215][898]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.05.22-22.43.44:271][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.22-22.43.56:997][510]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2019.05.22-22.44.03:196][191]LogEditorTransaction: Undo Paste clipboard contents
-[2019.05.22-22.44.06:271][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_1193 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_1193
-[2019.05.22-22.44.06:271][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_InputAction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_InputAction_60 or K2Node_InputAction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_InputAction_60
-[2019.05.22-22.44.06:271][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8
-[2019.05.22-22.44.06:271][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_InputKey /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_InputKey_2 or K2Node_InputKey /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_InputKey_2
-[2019.05.22-22.44.06:271][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_9 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_9
-[2019.05.22-22.44.06:272][550]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_12 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_12
-[2019.05.22-22.44.38:355][358]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.44.38:366][358]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "JumpCrouchTime" in 'ThirdPersonCharacter_C'.
-Make sure 'ThirdPersonCharacter_C' has been compiled for  Get JumpCrouchTime
-[2019.05.22-22.44.38:369][358]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Jump Crouch Time  could not be found in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
-[2019.05.22-22.44.38:557][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
-[2019.05.22-22.44.38:574][358]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0261,63] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 219 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.05.22-22.45.01:957][383]LogSlate: Window 'Change Variable Type' being destroyed
-[2019.05.22-22.45.03:071][514]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.45.03:275][514]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2019.05.22-22.45.28:866][382]LogSlate: Window 'Change Variable Type' being destroyed
-[2019.05.22-22.45.32:595][784]LogSlate: Window 'Find in Blueprints' being destroyed
-[2019.05.22-22.45.32:601][784]LogSlate: Window 'Find in Blueprints' being destroyed
-[2019.05.22-22.45.35:335][110]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.45.35:351][110]LogClass: Warning: Type mismatch in JumpCrouchTime of ThirdPersonCharacter_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
-[2019.05.22-22.45.35:541][110]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
-[2019.05.22-22.46.51:534][897]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.05.22-22.46.51:739][897]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
-[2019.05.22-22.46.53:678][121]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.22-22.46.53:695][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.46.53:696][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.22-22.46.53:696][121]PIE: New page: PIE session: Runner (23 maj 2019, 02:46:53)
-[2019.05.22-22.46.53:696][121]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
-[2019.05.22-22.46.53:698][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002413s)
-[2019.05.22-22.46.53:699][121]LogAIModule: Creating AISystem for world Runner
-[2019.05.22-22.46.53:699][121]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2019.05.22-22.46.53:699][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003195s)
-[2019.05.22-22.46.53:737][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2019.05.22-22.46.53:749][121]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.05.22-22.46.53:763][121]LogInit: FAudioDevice initialized.
-[2019.05.22-22.46.53:791][121]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.05.22-22.46.53:792][121]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.23-00.46.53
-[2019.05.22-22.46.53:792][121]LogWorld: Bringing up level for play took: 0.000682
-[2019.05.22-22.46.53:810][121]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,135
-[2019.05.22-22.46.53:810][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.46.56:872][486]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.46.59:357][784]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.00:148][879]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.02:184][123]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.04:296][376]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.04:613][414]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.07:315][738]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.07:599][772]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.08:667][900]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.10:877][165]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.13:880][525]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.16:949][893]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.21:111][392]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.25:683][940]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.25:924][969]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.29:496][397]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.34:461][992]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.38:080][422]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
-[2019.05.22-22.47.44:897][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.47.44:897][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.47.44:927][239]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.22-22.47.44:927][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
-[2019.05.22-22.47.44:973][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.22-22.47.44:978][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2019.05.22-22.47.45:003][241]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.05.22-22.47.47:146][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.22-22.47.47:294][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2019.05.22-22.47.47:461][509]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerAF6BE4D8458796C2B111EB8123ABF4DC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Maps/Runner.umap'
-[2019.05.22-22.47.48:817][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
-[2019.05.22-22.47.48:908][662]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacterE5567FC14DFB19F958DFFCABCEB9377C.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2019.05.22-22.47.48:988][662]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter330E9528413858C1835FF9A33B32D509.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/ThirdPersonCharacter.uasset'
+[2019.05.25-17.46.56:954][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.25-17.46.56:954][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:955][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:959][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.25-17.46.56:959][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.25-17.46.56:960][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.25-17.46.56:960][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.25-17.46.56:960][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.25-17.46.56:970][  0]LogHAL: Display: Platform has ~ 16 GB [17141874688 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.25-17.46.56:970][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.25-17.46.56:970][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.25-17.46.56:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Scalability.ini]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.25-17.46.56:971][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Config/Windows/Engine.ini]
+[2019.05.25-17.46.56:971][  0]LogInit: Computer: DESKTOP-EAHEA7G
+[2019.05.25-17.46.56:971][  0]LogInit: User: anderzejn
+[2019.05.25-17.46.56:971][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.25-17.46.56:971][  0]LogInit: High frequency timer resolution =2.929688 MHz
+[2019.05.25-17.46.56:972][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.05.25-17.46.56:972][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.25-17.46.56:972][  0]LogMemory: Process Physical Memory: 97.68 MB used, 97.68 MB peak
+[2019.05.25-17.46.56:972][  0]LogMemory: Process Virtual Memory: 92.12 MB used, 92.12 MB peak
+[2019.05.25-17.46.56:972][  0]LogMemory: Physical Memory: 5531.05 MB used,  10816.72 MB free, 16347.77 MB total
+[2019.05.25-17.46.56:972][  0]LogMemory: Virtual Memory: 4630.83 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.05.25-17.46.56:997][  0]LogInit: Using OS detected language (pl-PL).
+[2019.05.25-17.46.56:997][  0]LogInit: Using OS detected locale (pl-PL).
+[2019.05.25-17.46.56:999][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2019.05.25-17.46.56:999][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2019.05.25-17.46.57:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2019.05.25-17.46.57:001][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.25-17.46.57:034][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.25-17.46.57:034][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.25-17.46.57:243][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.25-17.46.57:243][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.25-17.46.57:306][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
+[2019.05.25-17.46.57:306][  0]LogD3D11RHI:       8137/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.05.25-17.46.57:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.25-17.46.57:308][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.25-17.46.57:309][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.25-17.46.57:316][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.25-17.46.57:316][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2019.05.25-17.46.57:316][  0]LogWindows: EnumDisplayDevices:
+[2019.05.25-17.46.57:316][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
+[2019.05.25-17.46.57:316][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:317][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:317][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:318][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:318][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:319][  0]LogWindows:    6. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2019.05.25-17.46.57:319][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2019.05.25-17.46.57:319][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
+[2019.05.25-17.46.57:319][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.3 (internal:24.20.13019.1008, unified:24.20.13019.1008)
+[2019.05.25-17.46.57:319][  0]LogD3D11RHI:      Driver Date: 9-25-2018
+[2019.05.25-17.46.57:319][  0]LogRHI: Texture pool is 5695 MB (70% of 8137 MB)
+[2019.05.25-17.46.57:475][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.25-17.46.57:478][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.25-17.46.57:479][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.25-17.46.57:479][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.25-17.46.57:485][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.05.25-17.46.57:910][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.25-17.46.57:927][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.25-17.46.57:945][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.25-17.46.57:962][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.25-17.46.57:980][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.25-17.46.57:997][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.25-17.46.58:015][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.25-17.46.58:031][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.25-17.46.58:039][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.25-17.46.58:127][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.25-17.46.58:129][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.25-17.46.58:183][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.25-17.46.58:183][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.25-17.46.58:207][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.25-17.46.58:207][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.25-17.46.58:221][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.25-17.46.58:234][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.25-17.46.58:248][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.25-17.46.58:262][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.25-17.46.58:314][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.25-17.46.58:314][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.25-17.46.58:314][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.25-17.46.58:326][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.25-17.46.58:400][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Intermediate/Shaders/WorkingDirectory/9428/).
+[2019.05.25-17.46.58:400][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/anderzejn/AppData/Local/Temp/UnrealShaderWorkingDir/FA2F23264EAB902069FD8FB1FCFF79B9/'.
+[2019.05.25-17.46.58:404][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.25-17.46.58:404][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.25-17.46.58:404][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.25-17.46.59:019][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.25-17.46.59:072][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.25-17.46.59:086][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.25-17.46.59:090][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.05.25-17.46.59:102][  0]LogDerivedDataCache: Using Local data cache path C:/Users/anderzejn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.25-17.46.59:102][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.25-17.46.59:102][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.25-17.46.59:126][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.25-17.46.59:127][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.25-17.46.59:128][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.25-17.46.59:228][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
+[2019.05.25-17.46.59:575][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.25-17.46.59:733][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.25-17.46.59:733][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.25-17.46.59:733][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.25-17.46.59:733][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.25-17.46.59:733][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.25-17.46.59:744][  0]LogNetVersion: TempleRunner 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 81763283)
+[2019.05.25-17.47.00:219][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.053250 seconds
+[2019.05.25-17.47.00:226][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.05.25-17.47.00:226][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.05.25-17.47.00:226][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.25-17.47.01:280][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.25-17.47.01:294][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.25-17.47.01:406][  0]SourceControl: Source control is disabled
+[2019.05.25-17.47.01:406][  0]SourceControl: Source control is disabled
+[2019.05.25-17.47.01:408][  0]SourceControl: Source control is disabled
+[2019.05.25-17.47.01:409][  0]SourceControl: Source control is disabled
+[2019.05.25-17.47.01:543][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.25-17.47.01:611][  0]LogOcInput: OculusInput pre-init called
+[2019.05.25-17.47.04:483][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.05.25-17.47.04:483][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.05.25-17.47.04:484][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.05.25-17.47.04:484][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.05.25-17.47.04:628][  0]LogEngine: Initializing Engine...
+[2019.05.25-17.47.04:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.25-17.47.04:630][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.25-17.47.04:905][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.25-17.47.04:923][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.25-17.47.04:940][  0]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.25-17.47.04:964][  0]LogInit: FAudioDevice initialized.
+[2019.05.25-17.47.04:965][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.25-17.47.05:072][  0]LogDerivedDataCache: Saved boot cache 0.11s 72MB C:/Users/anderzejn/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.25-17.47.05:085][  0]LogInit: Texture streaming: Enabled
+[2019.05.25-17.47.05:114][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.25-17.47.05:165][  0]LogInit: Transaction tracking system initialized
+[2019.05.25-17.47.05:210][  0]BlueprintLog: New page: Editor Load
+[2019.05.25-17.47.05:339][  0]LocalizationService: Localization service is disabled
+[2019.05.25-17.47.05:685][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/' took 0.02s
+[2019.05.25-17.47.05:685][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.25-17.47.05:685][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.25-17.47.07:547][  0]SourceControl: Source control is disabled
+[2019.05.25-17.47.07:547][  0]Cmd: MAP LOAD FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Maps/Runner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.25-17.47.07:547][  0]LightingResults: New page: Lighting Build
+[2019.05.25-17.47.07:551][  0]MapCheck: New page: Map Check
+[2019.05.25-17.47.07:551][  0]LightingResults: New page: Lighting Build
+[2019.05.25-17.47.07:579][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.05.25-17.47.07:769][  0]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-17.47.07:777][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.25-17.47.07:808][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.05.25-17.47.07:808][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.25-17.47.07:808][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,094ms to complete.
+[2019.05.25-17.47.07:808][  0]LogFileHelpers: Loading map 'Runner' took 0.262
+[2019.05.25-17.47.09:073][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.25-17.47.09:125][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.09:134][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.09:143][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.09:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.09:163][  0]LogCollectionManager: Loaded 0 collections in 0.003217 seconds
+[2019.05.25-17.47.09:181][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Collections/' took 0.01s
+[2019.05.25-17.47.09:182][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Developers/anderzejn/Collections/' took 0.00s
+[2019.05.25-17.47.09:182][  0]LogFileCache: Scanning file cache for directory 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Collections/' took 0.00s
+[2019.05.25-17.47.09:182][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.25-17.47.09:192][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2865 classes and 728 folders.
+[2019.05.25-17.47.09:202][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.25-17.47.09:204][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:205][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:206][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:206][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:209][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:209][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:210][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:210][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:211][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:212][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:212][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:213][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:214][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:214][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:216][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:217][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:217][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:218][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:218][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:219][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:220][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:221][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:222][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:224][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:226][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.25-17.47.09:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.25-17.47.09:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.05.25-17.47.09:378][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.25-17.47.09:381][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.25-17.47.09:383][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.25-17.47.09:436][  0]LogRenderer: Reallocating scene render targets to support 1448x608 Format 10 NumSamples 1 (Frame:1).
+[2019.05.25-17.47.09:552][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.25-17.47.09:552][  0]LogLoad: (Engine Initialization) Total time: 15.24 seconds
+[2019.05.25-17.47.09:552][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.25-17.47.09:615][  0]LogAssetRegistry: Asset discovery search completed in 10.4093 seconds
+[2019.05.25-17.47.09:617][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.25-17.47.09:617][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.05.25-17.47.09:619][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.25-17.47.09:638][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.25-17.47.11:768][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.47.11:854][179]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-17.47.11:866][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.11:866][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-17.47.11:866][179]PIE: New page: PIE session: Runner (25 maj 2019, 21:47:11)
+[2019.05.25-17.47.11:879][179]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-17.47.11:882][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002469s)
+[2019.05.25-17.47.11:882][179]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-17.47.11:882][179]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2019.05.25-17.47.11:882][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003340s)
+[2019.05.25-17.47.11:909][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.05.25-17.47.11:921][179]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.25-17.47.11:936][179]LogInit: FAudioDevice initialized.
+[2019.05.25-17.47.12:036][179]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-17.47.12:038][179]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-19.47.12
+[2019.05.25-17.47.12:039][179]LogWorld: Bringing up level for play took: 0.000957
+[2019.05.25-17.47.12:060][179]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.05.25-17.47.12:067][179]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,954
+[2019.05.25-17.47.12:067][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.15:314][565]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
+[2019.05.25-17.47.17:899][875]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
+[2019.05.25-17.47.19:735][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.19:736][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.19:766][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-17.47.19:767][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.19:798][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.19:802][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.05.25-17.47.19:834][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.25-17.47.20:813][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.47.29:096][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.05.25-17.47.30:740][ 90]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.25-17.47.30:744][ 90]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/Runner/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+	Asset Name: /Game/Runner/MapTile/FloorBlueprint/MasterTile.MasterTile
+	Asset Name: /Game/Runner/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+	Asset Name: /Game/Runner/MapTile/Material/FloorTile_Diff.FloorTile_Diff
+	Asset Name: /Game/Runner/MapTile/Material/FloorTile_EM.FloorTile_EM
+	Asset Name: /Game/Runner/MapTile/Material/FloorTile_Nrm.FloorTile_Nrm
+	Asset Name: /Game/Runner/MapTile/Material/Floor-material.Floor-material
+	Asset Name: /Game/Runner/MapTile/FloorBlueprint/Floor.Floor
+	Asset Name: /Game/Runner/MapTile/FloorBlueprint/Floor_C.Floor_C
+[2019.05.25-17.47.30:747][ 90]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.25-17.47.31:106][ 90]LogMaterial: Display: Missing cached shader map for material Floor-material, compiling. 
+[2019.05.25-17.47.31:106][ 90]LogMaterial: Warning: I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Content\Runner\MapTile\Material\Floor-material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.05.25-17.47.31:106][ 90]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.05.25-17.47.31:109][ 90]LogMaterial: Display: Missing cached shader map for material Floor-material, compiling. 
+[2019.05.25-17.47.31:109][ 90]LogMaterial: Warning: I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Content\Runner\MapTile\Material\Floor-material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.05.25-17.47.31:109][ 90]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.05.25-17.47.31:112][ 90]LogMaterial: Display: Missing cached shader map for material Floor-material, compiling. 
+[2019.05.25-17.47.31:112][ 90]LogMaterial: Warning: I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Content\Runner\MapTile\Material\Floor-material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.05.25-17.47.31:112][ 90]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.05.25-17.47.31:147][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.05.25-17.47.32:021][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.05.25-17.47.32:047][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.05.25-17.47.32:073][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.05.25-17.47.32:100][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.05.25-17.47.32:127][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.05.25-17.47.32:154][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.05.25-17.47.32:182][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.05.25-17.47.32:209][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.05.25-17.47.32:237][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.05.25-17.47.32:265][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.05.25-17.47.32:291][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.05.25-17.47.33:016][170]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-17.47.33:026][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.33:026][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-17.47.33:026][170]PIE: New page: PIE session: Runner (25 maj 2019, 21:47:33)
+[2019.05.25-17.47.33:026][170]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-17.47.33:028][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002078s)
+[2019.05.25-17.47.33:029][170]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-17.47.33:029][170]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.05.25-17.47.33:029][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.002984s)
+[2019.05.25-17.47.33:056][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.25-17.47.33:067][170]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.25-17.47.33:081][170]LogInit: FAudioDevice initialized.
+[2019.05.25-17.47.33:113][170]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-17.47.33:114][170]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-19.47.33
+[2019.05.25-17.47.33:114][170]LogWorld: Bringing up level for play took: 0.000487
+[2019.05.25-17.47.33:131][170]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,019
+[2019.05.25-17.47.33:131][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.37:426][683]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
+[2019.05.25-17.47.40:753][ 82]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
+[2019.05.25-17.47.42:753][322]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Turlanie
+[2019.05.25-17.47.45:505][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.45:505][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.45:538][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-17.47.45:539][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.45:570][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.45:572][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.05.25-17.47.45:588][653]LogWindows: LaunchURL http://docs.unrealengine.com/latest/POL/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.05.25-17.47.45:608][655]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.25-17.47.47:220][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-17.47.47:738][715]Cmd: SELECT NONE
+[2019.05.25-17.47.48:884][848]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-17.47.48:894][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.48:894][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-17.47.48:894][848]PIE: New page: PIE session: Runner (25 maj 2019, 21:47:48)
+[2019.05.25-17.47.48:894][848]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-17.47.48:896][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002384s)
+[2019.05.25-17.47.48:897][848]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-17.47.48:897][848]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2019.05.25-17.47.48:897][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003304s)
+[2019.05.25-17.47.48:925][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.05.25-17.47.48:937][848]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.25-17.47.48:953][848]LogInit: FAudioDevice initialized.
+[2019.05.25-17.47.48:983][848]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-17.47.48:984][848]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-19.47.48
+[2019.05.25-17.47.48:984][848]LogWorld: Bringing up level for play took: 0.000496
+[2019.05.25-17.47.49:001][848]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,111
+[2019.05.25-17.47.49:001][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.49:502][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.49:503][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.49:533][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-17.47.49:533][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-17.47.49:562][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-17.47.49:565][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.05.25-17.47.49:601][909]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.25-17.47.50:846][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.05.25-17.47.50:887][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.05.25-17.47.50:987][ 55]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerF64411AA4EBC642D415E19BFBDF77DAC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Maps/Runner.umap'
+[2019.05.25-17.47.51:008][ 55]LogFileHelpers: Saving map 'Runner' took 0.150
