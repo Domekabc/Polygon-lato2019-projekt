@@ -1002,3 +1002,153 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.25-17.55.16:165][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
 [2019.05.25-17.55.16:171][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.05.25-17.55.16:256][714]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter80DA624A470FA9E5045E3B88C067EF58.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.05.25-17.56.30:340][948]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Character/character.character
+[2019.05.25-17.56.30:370][948]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.05.25-17.56.30:371][948]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.05.25-17.56.30:667][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.05.25-17.56.30:682][948]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.05.25-17.56.30:682][948]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.05.25-17.56.30:728][948]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.05.25-17.56.31:390][949]LogRenderer: Reallocating scene render targets to support 1448x884 Format 10 NumSamples 1 (Frame:1).
+[2019.05.25-17.56.33:922][182]LogAssetEditorManager: Opening Asset editor for Material /Game/Character/MAT_character.MAT_character
+[2019.05.25-17.56.33:927][182]LogMaterial: Display: Missing cached shader map for material MAT_character, compiling. 
+[2019.05.25-17.56.34:086][182]LogMaterial: Display: Missing cached shader map for material MAT_character, compiling. 
+[2019.05.25-17.56.34:123][182]LogMaterial: Display: Missing cached shader map for material MAT_character, compiling. 
+[2019.05.25-17.56.34:187][182]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.05.25-17.56.35:889][368]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.05.25-17.56.38:298][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.56.38:659][684]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.25-17.56.39:904][804]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.25-17.56.41:818][  2]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-17.56.43:171][130]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Texture samplers: 4/16
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.05.25-17.56.45:047][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.05.25-17.56.45:243][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.57.30:260][973]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Character/characterTestColor.characterTestColor
+[2019.05.25-17.57.30:315][973]LogBlueprintActionDatabase: Requesting refresh due to module change: TextureEditor (loaded)
+[2019.05.25-17.57.30:315][973]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.25-17.57.47:155][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.58.55:614][347]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.05.25-17.59.12:311][390]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-17.59.12:642][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-17.59.13:459][522]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-17.59.21:820][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.59.25:664][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-17.59.54:032][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.01.04:355][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.02.38:737][242]Cmd: TRANSACTION UNDO
+[2019.05.25-18.02.38:737][242]LogEditorTransaction: Undo Translate Bone
+[2019.05.25-18.02.38:992][242]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.05.25-18.02.39:007][242]LogMaterial: Display: Missing cached shader map for material MAT_character, compiling. 
+[2019.05.25-18.02.40:777][409]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.05.25-18.02.43:640][723]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.25-18.02.45:500][926]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.25-18.02.48:184][209]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.25-18.02.49:479][295]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.25-18.02.52:531][508]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.05.25-18.02.52:531][508]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.05.25-18.02.52:531][508]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.05.25-18.02.52:531][508]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2019.05.25-18.02.52:532][508]MaterialEditorStats: Texture samplers: 4/16
+[2019.05.25-18.02.52:532][508]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.05.25-18.02.52:532][508]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.05.25-18.03.05:483][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.03.08:455][ 46]LogSlate: Window 'Clothing' being destroyed
+[2019.05.25-18.03.08:460][ 46]LogSlate: Window 'Clothing' being destroyed
+[2019.05.25-18.03.08:462][ 46]LogSkeletalMesh: Building Skeletal Mesh character...
+[2019.05.25-18.03.08:484][ 46]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Character/character.character
+[2019.05.25-18.04.22:862][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.04.28:020][652]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp]
+[2019.05.25-18.04.28:063][652]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp)
+[2019.05.25-18.04.28:176][652]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.04.28:443][652]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.04.28:669][652]LogEditorFactories: -- imported successfully
+[2019.05.25-18.06.05:206][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.06.07:536][715]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp]
+[2019.05.25-18.06.07:581][715]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp)
+[2019.05.25-18.06.07:618][715]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.06.07:847][715]LogEditorFactories: -- imported successfully
+[2019.05.25-18.06.11:514][ 90]LogTexture: Display: Building textures: characterTestColor (AutoDXT, 2048X2048)
+[2019.05.25-18.06.18:798][592]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp]
+[2019.05.25-18.06.18:843][592]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp)
+[2019.05.25-18.06.18:872][592]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.06.19:092][592]LogEditorFactories: -- imported successfully
+[2019.05.25-18.06.22:843][978]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Character/characterTestColor.characterTestColor
+[2019.05.25-18.06.24:732][184]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp]
+[2019.05.25-18.06.24:777][184]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor1.bmp)
+[2019.05.25-18.06.24:814][184]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.06.25:044][184]LogEditorFactories: -- imported successfully
+[2019.05.25-18.06.46:196][439]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2019.05.25-18.06.46:202][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.25-18.06.46:278][439]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/character5D801CC44C6E9B0877AAD18582F8B9F9.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/character.uasset'
+[2019.05.25-18.06.46:300][439]LogTexture: Display: Building textures: characterTestColor (AutoDXT, 2048X2048)
+[2019.05.25-18.06.49:631][439]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/characterTestColor4D0DB03A42B0DBFA82C8FDBB74B2C309.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/characterTestColor.uasset'
+[2019.05.25-18.07.06:424][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.07.43:880][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.07.50:191][263]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.05.25-18.07.50:191][263]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.061
+[2019.05.25-18.07.50:195][263]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/characterTestColor] ([1] browsable assets)...
+[2019.05.25-18.07.50:203][263]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Character/characterTestColor.characterTestColor]
+[2019.05.25-18.07.50:203][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/characterTestColor]
+[2019.05.25-18.07.50:213][263]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/characterTestColor_Auto1C1688CFF4D06702C7F47C6A5F5C66737.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Character/characterTestColor_Auto1.uasset'
+[2019.05.25-18.07.50:213][263]LogFileHelpers: Auto-saving content packages took 0.019
+[2019.05.25-18.07.55:255][856]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor2.bmp]
+[2019.05.25-18.07.55:300][856]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor2.bmp)
+[2019.05.25-18.07.55:336][856]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.07.55:559][856]LogEditorFactories: -- imported successfully
+[2019.05.25-18.09.13:397][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.09.18:155][727]LogTexture: Display: Building textures: characterTestColor (AutoDXT, 2048X2048)
+[2019.05.25-18.09.21:468][727]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/characterTestColor77F9D9A44EB72B6EBDFFF0B8CE922A73.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/characterTestColor.uasset'
+[2019.05.25-18.09.30:128][162]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor3.bmp]
+[2019.05.25-18.09.30:173][162]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor3.bmp)
+[2019.05.25-18.09.30:210][162]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.09.30:437][162]LogEditorFactories: -- imported successfully
+[2019.05.25-18.10.15:556][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.10.23:181][980]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor4.bmp]
+[2019.05.25-18.10.23:231][980]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor4.bmp)
+[2019.05.25-18.10.23:269][980]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.10.23:502][980]LogEditorFactories: -- imported successfully
+[2019.05.25-18.10.29:655][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.10.40:149][508]LogEditorFactories: Performing atomic reimport of [I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor3.bmp]
+[2019.05.25-18.10.40:194][508]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/characterTestColor3.bmp)
+[2019.05.25-18.10.40:231][508]LogTexture: Display: Building textures: characterTestColor (BGRA8, 2048X2048)
+[2019.05.25-18.10.40:473][508]LogEditorFactories: -- imported successfully
+[2019.05.25-18.10.41:801][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.05.25-18.10.41:825][653]LogTexture: Display: Building textures: characterTestColor (AutoDXT, 2048X2048)
+[2019.05.25-18.10.45:081][653]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/characterTestColorB4C226404A35E5366A15C698C0555CF8.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/characterTestColor.uasset'
+[2019.05.25-18.10.55:113][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.05.25-18.11.00:109][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-18.11.01:414][994]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.25-18.11.01:429][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-18.11.01:429][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-18.11.01:429][994]PIE: New page: PIE session: Runner (25 maj 2019, 22:11:01)
+[2019.05.25-18.11.01:429][994]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.25-18.11.01:432][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002495s)
+[2019.05.25-18.11.01:437][994]LogAIModule: Creating AISystem for world Runner
+[2019.05.25-18.11.01:437][994]LogPlayLevel: PIE: World Init took: (0.004611s)
+[2019.05.25-18.11.01:437][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.007769s)
+[2019.05.25-18.11.01:475][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.05.25-18.11.01:488][994]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.25-18.11.01:504][994]LogInit: FAudioDevice initialized.
+[2019.05.25-18.11.01:538][994]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.25-18.11.01:539][994]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.25-20.11.01
+[2019.05.25-18.11.01:539][994]LogWorld: Bringing up level for play took: 0.000479
+[2019.05.25-18.11.01:557][994]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,444
+[2019.05.25-18.11.01:557][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-18.11.04:787][379]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.25-18.11.07:928][752]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.25-18.11.19:280][114]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.25-18.11.28:944][273]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.25-18.11.31:156][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-18.11.31:156][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-18.11.31:188][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-18.11.31:189][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.25-18.11.31:232][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-18.11.31:236][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.05.25-18.11.31:261][535]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.25-18.11.39:384][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
