@@ -889,3 +889,70 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.26-10.19.00:652][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.05.26-10.19.00:657][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
 [2019.05.26-10.19.00:674][704]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.26-10.23.10:135][113]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.05.26-10.23.25:560][992]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.05.26-10.23.25:560][992]LogMetaData: Removing '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.SKEL_EndlessSAvedGame_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/NewBlueprint.PackageMetaData'
+[2019.05.26-10.23.25:560][992]LogMetaData: Removing '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/NewBlueprint.PackageMetaData'
+[2019.05.26-10.23.25:585][992]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/EndlessSAvedGame8FB53DBA486A046F7F10A4AC8090ED06.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.uasset'
+[2019.05.26-10.23.25:777][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.05.26-10.23.25:825][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.05.26-10.23.25:866][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.05.26-10.23.26:728][ 77]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.EndlessSAvedGame
+[2019.05.26-10.23.51:413][491]LogSlate: Took 0.011996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.05.26-10.23.53:503][740]BlueprintLog: New page: Compile EndlessSAvedGame
+[2019.05.26-10.23.53:550][740]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.05.26-10.26.18:906][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.05.26-10.26.18:907][217]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.049
+[2019.05.26-10.26.18:908][217]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/MapTile/Blueprints/Paused] ([1] browsable assets)...
+[2019.05.26-10.26.18:908][217]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/Blueprints/Paused]
+[2019.05.26-10.26.18:952][217]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Paused_Auto3ECE840464EF5CA4931BC52A11D8A221B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/Blueprints/Paused_Auto3.uasset'
+[2019.05.26-10.26.18:953][217]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame] ([1] browsable assets)...
+[2019.05.26-10.26.18:953][217]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame]
+[2019.05.26-10.26.18:962][217]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/EndlessSAvedGame_Auto37AFA01674BC719960EB7C99E948C8101.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame_Auto3.uasset'
+[2019.05.26-10.26.18:964][217]LogFileHelpers: Auto-saving content packages took 0.057
+[2019.05.26-10.27.28:179][917]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.05.26-10.30.51:850][920]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.26-10.36.43:425][535]LogEditorTransaction: Undo Add Node
+[2019.05.26-10.37.27:451][428]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2019.05.26-10.37.27:614][428]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter4134F5EB45E6A47DE8FD04A14B337748.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.05.26-10.37.27:711][428]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Paused654402E6442084EACC39ABB8F38F7E99.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/Paused.uasset'
+[2019.05.26-10.37.27:722][428]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/EndlessSAvedGameECA18AF34FA65A4E063013B5496E836A.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.uasset'
+[2019.05.26-10.39.26:846][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.05.26-10.39.26:847][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.055
+[2019.05.26-10.39.26:848][420]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.05.26-10.39.26:869][420]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.05.26-10.39.26:869][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.05.26-10.39.27:103][420]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter_Auto4282CC45840A2417D6B799B9783767269.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2019.05.26-10.39.27:104][420]LogFileHelpers: Auto-saving content packages took 0.257
+[2019.05.26-10.39.28:766][617]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.05.26-10.39.29:019][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.05.26-10.39.29:381][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.05.26-10.39.29:503][646]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter31148468497CF8CD30F30E981FBCA8DD.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.05.26-10.39.39:798][975]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.26-10.39.39:825][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.26-10.39.39:825][975]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.26-10.39.39:827][975]LogPlayLevel: [PlayLevel] Compiling Paused before play...
+[2019.05.26-10.39.40:049][975]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.05.26-10.39.40:049][975]LogPlayLevel: PlayLevel: Blueprint regeneration took 224 ms (1 blueprints)
+[2019.05.26-10.39.40:049][975]PIE: New page: PIE session: Runner (26 maj 2019, 14:39:40)
+[2019.05.26-10.39.40:049][975]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.26-10.39.40:052][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002295s)
+[2019.05.26-10.39.40:052][975]LogAIModule: Creating AISystem for world Runner
+[2019.05.26-10.39.40:053][975]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2019.05.26-10.39.40:053][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003401s)
+[2019.05.26-10.39.40:095][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.05.26-10.39.40:106][975]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.26-10.39.40:124][975]LogInit: FAudioDevice initialized.
+[2019.05.26-10.39.40:152][975]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.26-10.39.40:153][975]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.26-12.39.40
+[2019.05.26-10.39.40:154][975]LogWorld: Bringing up level for play took: 0.000675
+[2019.05.26-10.39.40:173][975]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,467
+[2019.05.26-10.39.40:173][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.26-10.39.41:034][ 76]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.26-10.39.47:096][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.26-10.39.47:096][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.26-10.39.47:126][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.26-10.39.47:127][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.26-10.39.47:178][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.26-10.39.47:183][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.05.26-10.39.47:204][805]LogPlayLevel: Display: Destroying online subsystem :Context_17
