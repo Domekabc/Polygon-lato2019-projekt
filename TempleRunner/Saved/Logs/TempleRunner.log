@@ -1870,3 +1870,162 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.28-11.01.35:350][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.05.28-11.01.35:356][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
 [2019.05.28-11.01.35:373][721]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.05.28-11.08.24:811][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.28-11.08.24:872][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.05.28-11.08.24:873][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.051
+[2019.05.28-11.08.24:874][688]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Runner/Meshes/PipeMain] ([1] browsable assets)...
+[2019.05.28-11.08.24:895][688]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Runner/Meshes/PipeMain.PipeMain]
+[2019.05.28-11.08.24:895][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/Runner/Meshes/PipeMain]
+[2019.05.28-11.08.24:913][688]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeMain_Auto24D8EA64A4B014A43F73EA18E4E7C1D20.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Meshes/PipeMain_Auto2.uasset'
+[2019.05.28-11.08.24:915][688]LogFileHelpers: Auto-saving content packages took 0.041
+[2019.05.28-11.17.38:915][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.05.28-11.17.38:933][329]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/PipeMainBF7C99B247F71193A2825AAC8C89CAFA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/PipeMain.uasset'
+[2019.05.28-11.24.37:403][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.28-11.24.37:404][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.053
+[2019.05.28-11.24.37:406][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile] ([1] browsable assets)...
+[2019.05.28-11.24.37:420][148]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile]
+[2019.05.28-11.24.37:421][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile]
+[2019.05.28-11.24.37:481][148]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile_Auto373B35FD4413A952EF00CB19F12A90ED3.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile_Auto3.uasset'
+[2019.05.28-11.24.37:483][148]LogFileHelpers: Auto-saving content packages took 0.078
+[2019.05.28-11.37.46:098][815]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.37.46:251][815]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.37.46:317][816]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.37.46:981][888]LogEditorTransaction: Undo Add Node
+[2019.05.28-11.37.47:110][888]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.37.47:167][889]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.37.48:782][ 77]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.37.51:776][416]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.37.51:777][416]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.37.51:777][416]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.37.51:777][416]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.38.00:335][421]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.38.00:449][421]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.00:510][422]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.01:275][506]LogEditorTransaction: Undo Add Node
+[2019.05.28-11.38.01:402][506]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.01:640][528]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.03:042][691]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.38.04:338][840]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.38.04:476][840]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.04:490][840]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.04:945][883]LogEditorTransaction: Undo Move Node
+[2019.05.28-11.38.05:081][883]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.05:291][900]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.05:580][933]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.38.05:717][933]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.05:982][958]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.06:095][971]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.38.06:230][971]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.06:384][983]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.06:661][ 15]LogEditorTransaction: Undo Move Node
+[2019.05.28-11.38.06:796][ 15]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.07:045][ 38]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.07:201][ 56]LogEditorTransaction: Undo Create Pin Link
+[2019.05.28-11.38.07:345][ 56]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.07:520][ 70]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.07:969][122]LogEditorTransaction: Undo Add Node
+[2019.05.28-11.38.08:105][122]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.38.08:361][145]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.38.09:839][314]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.38.13:044][685]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.38.13:045][685]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.38.13:045][685]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.38.13:045][685]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.38.41:945][ 86]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::InRange_FloatFloat' [Nie można odnaleźć elementu.]
+[2019.05.28-11.39.15:330][474]LogEditorTransaction: Undo Move Node
+[2019.05.28-11.39.15:452][474]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.15:502][475]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.16:031][536]LogEditorTransaction: Undo Paste clipboard contents
+[2019.05.28-11.39.16:167][536]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.16:255][542]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.17:426][675]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.39.20:240][991]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.EdGraphNode_Comment_0 or EdGraphNode_Comment /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.EdGraphNode_Comment_0
+[2019.05.28-11.39.20:374][  0]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.39.20:374][  0]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.39.20:374][  0]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.39.20:374][  0]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.39.26:836][774]LogEditorTransaction: Undo Move Node
+[2019.05.28-11.39.26:957][774]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.26:973][774]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.28:447][937]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.39.30:146][132]LogEditorTransaction: Undo Paste clipboard contents
+[2019.05.28-11.39.30:296][132]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.30:413][140]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.31:922][312]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.39.34:720][635]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.39.34:720][635]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.39.34:721][635]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.39.34:721][635]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.39.39:498][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_1 or K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_1
+[2019.05.28-11.39.39:498][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_VariableGet_1 or K2Node_VariableGet /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_VariableGet_1
+[2019.05.28-11.39.39:499][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_VariableGet_1 or K2Node_VariableGet /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_VariableGet_1
+[2019.05.28-11.39.39:499][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_3 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_3
+[2019.05.28-11.39.39:500][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_6 or K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_6
+[2019.05.28-11.39.39:500][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_9 or K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_9
+[2019.05.28-11.39.39:501][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_10 or K2Node_SpawnActorFromClass /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_SpawnActorFromClass_10
+[2019.05.28-11.39.39:501][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_0 or K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_0
+[2019.05.28-11.39.39:502][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_8 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_8
+[2019.05.28-11.39.39:502][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_10 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_10
+[2019.05.28-11.39.39:503][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_1 or K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_1
+[2019.05.28-11.39.39:503][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_2 or K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_2
+[2019.05.28-11.39.39:504][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_11 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_11
+[2019.05.28-11.39.39:504][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_IfThenElse_3
+[2019.05.28-11.39.39:504][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_9 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_9
+[2019.05.28-11.39.39:505][200]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_7 or K2Node_CallFunction /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_CallFunction_7
+[2019.05.28-11.39.48:104][182]LogEditorTransaction: Undo Paste clipboard contents
+[2019.05.28-11.39.48:230][182]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.48:290][183]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.48:860][245]LogEditorTransaction: Undo Move Nodes
+[2019.05.28-11.39.49:002][245]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.49:061][246]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.50:427][404]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.39.50:892][458]LogEditorTransaction: Redo Move Nodes
+[2019.05.28-11.39.51:046][458]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.39.51:859][543]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.39.53:199][696]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.39.56:309][ 29]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.39.56:309][ 29]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.39.56:309][ 29]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.39.56:310][ 29]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.41.17:695][750]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.05.28-11.41.17:798][750]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile2AF7BD4B4C9AECE5F10073B933F50B2B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/MasterTile.uasset'
+[2019.05.28-11.41.32:061][281]BlueprintLog: New page: Compile MasterTile
+[2019.05.28-11.41.32:312][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.05.28-11.41.33:724][421]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-11.41.33:750][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.41.33:751][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-11.41.33:751][421]PIE: New page: PIE session: Runner (28 maj 2019, 15:41:33)
+[2019.05.28-11.41.33:752][421]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.28-11.41.33:754][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002683s)
+[2019.05.28-11.41.33:755][421]LogAIModule: Creating AISystem for world Runner
+[2019.05.28-11.41.33:756][421]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2019.05.28-11.41.33:756][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004405s)
+[2019.05.28-11.41.33:808][421]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.05.28-11.41.33:820][421]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.28-11.41.33:838][421]LogInit: FAudioDevice initialized.
+[2019.05.28-11.41.33:867][421]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.28-11.41.33:868][421]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.28-13.41.33
+[2019.05.28-11.41.33:869][421]LogWorld: Bringing up level for play took: 0.000828
+[2019.05.28-11.41.33:903][421]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,125
+[2019.05.28-11.41.33:904][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.41.53:033][712]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.28-11.42.12:132][  2]LogBlueprintUserMessages: [Magnet_Pickup_C_1] Magnet Active
+[2019.05.28-11.42.16:560][533]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.28-11.42.17:553][652]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.05.28-11.42.31:589][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.42.31:589][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-11.42.31:622][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-11.42.31:622][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.42.31:678][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-11.42.31:688][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.05.28-11.42.31:709][327]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.05.28-11.42.56:536][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.28-11.42.56:596][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.05.28-11.42.56:596][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.048
+[2019.05.28-11.42.56:598][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile] ([1] browsable assets)...
+[2019.05.28-11.42.56:611][472]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.MasterTile]
+[2019.05.28-11.42.56:612][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile]
+[2019.05.28-11.42.56:689][472]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile_Auto43FC47C2A465189FC6758BD928EF5A599.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile_Auto4.uasset'
+[2019.05.28-11.42.56:690][472]LogFileHelpers: Auto-saving content packages took 0.092
+[2019.05.28-11.43.00:431][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.05.28-11.43.00:511][690]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile72728D24496F2A21E78C2CA57728FD49.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/MasterTile.uasset'
