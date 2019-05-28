@@ -1736,3 +1736,137 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.28-10.57.36:498][274]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
 [2019.05.28-10.57.38:534][380]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
 [2019.05.28-10.57.38:578][380]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Coin_Pickup53D9E0944B53B85BA29199BA1C5ABF71.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.uasset'
+[2019.05.28-11.00.16:841][774]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Runner/Meshes/Low_Obstacles_Pipes.Low_Obstacles_Pipes
+[2019.05.28-11.00.23:937][439]LogAssetEditorManager: Opening Asset editor for Material /Game/Runner/Meshes/PipeMain.PipeMain
+[2019.05.28-11.00.23:941][439]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.24:023][439]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.24:039][439]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.24:067][439]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.24:080][439]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.28-11.00.24:989][530]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.26:655][694]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.00.29:097][938]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.00.29:097][938]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.00.29:097][938]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.00.29:098][938]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.00.30:161][ 41]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.30:183][ 41]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.05.28-11.00.30:188][ 41]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.30:191][ 41]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.30:232][ 41]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.05.28-11.00.31:131][133]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.32:896][320]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.00.33:752][404]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.33:782][404]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.05.28-11.00.33:814][404]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.34:992][532]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.36:591][711]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.00.39:702][ 32]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.00.39:702][ 32]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.00.39:702][ 32]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.00.39:703][ 32]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.00.43:712][483]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.43:736][485]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.45:063][615]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.00.48:372][945]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.00.48:372][945]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.00.48:372][945]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.00.48:373][945]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.00.50:520][161]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.50:539][161]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.28-11.00.50:556][161]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.51:054][210]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.52:708][374]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.00.55:166][618]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.00.55:167][618]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.00.55:167][618]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.00.55:167][618]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.00.59:125][ 14]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.00.59:145][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.28-11.00.59:159][ 14]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.00.59:573][ 55]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.01.01:256][219]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.01.03:862][471]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.01.03:862][471]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.01.03:862][471]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.01.03:862][471]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.01.04:510][534]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.04:535][534]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.01.04:535][534]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.05.28-11.01.04:563][534]LogSlate: Window 'Color Picker' being destroyed
+[2019.05.28-11.01.05:098][595]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.01.06:924][790]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-11.01.07:592][865]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.07:616][865]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.05.28-11.01.07:646][865]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.08:892][  2]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.01.09:334][ 43]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.09:390][ 48]LogMaterialEditor: Applying material PipeMain
+[2019.05.28-11.01.09:839][ 48]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-11.01.09:856][ 48]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.09:931][ 48]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.09:954][ 48]LogMaterial: Display: Missing cached shader map for material PipeMain, compiling. 
+[2019.05.28-11.01.10:018][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.05.28-11.01.10:026][ 48]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.05.28-11.01.12:029][ 48]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.28-11.01.12:029][ 48]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.28-11.01.12:031][ 48]TextureStreamingBuild: Display: Compiling optional shaders took 2.013 seconds.
+[2019.05.28-11.01.12:079][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.05.28-11.01.14:187][263]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-11.01.14:214][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.01.14:215][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-11.01.14:215][263]PIE: New page: PIE session: Runner (28 maj 2019, 15:01:14)
+[2019.05.28-11.01.14:215][263]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.28-11.01.14:218][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002499s)
+[2019.05.28-11.01.14:219][263]LogAIModule: Creating AISystem for world Runner
+[2019.05.28-11.01.14:219][263]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2019.05.28-11.01.14:219][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003831s)
+[2019.05.28-11.01.14:269][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.05.28-11.01.14:282][263]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.28-11.01.14:297][263]LogInit: FAudioDevice initialized.
+[2019.05.28-11.01.14:326][263]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.28-11.01.14:327][263]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.28-13.01.14
+[2019.05.28-11.01.14:328][263]LogWorld: Bringing up level for play took: 0.000791
+[2019.05.28-11.01.14:350][263]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,429
+[2019.05.28-11.01.14:351][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.01.16:882][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-11.01.17:214][579]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.05.28-11.01.17:214][579]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.05.28-11.01.17:214][579]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.05.28-11.01.17:214][579]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.28-11.01.18:069][680]Cmd: restartlevel
+[2019.05.28-11.01.18:070][680]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.05.28-11.01.18:070][680]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.05.28-11.01.18:121][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.05.28-11.01.18:121][680]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.28-11.01.18:124][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002042s)
+[2019.05.28-11.01.18:124][680]LogAIModule: Creating AISystem for world Runner
+[2019.05.28-11.01.18:125][680]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.05.28-11.01.18:125][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003423s)
+[2019.05.28-11.01.18:125][680]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.28-11.01.18:126][680]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.28-13.01.18
+[2019.05.28-11.01.18:126][680]LogWorld: Bringing up level for play took: 0.000570
+[2019.05.28-11.01.18:135][680]LogLoad: Took 0.065287 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.05.28-11.01.18:908][771]Cmd: restartlevel
+[2019.05.28-11.01.18:909][771]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.05.28-11.01.18:909][771]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.05.28-11.01.18:957][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.05.28-11.01.18:958][771]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.05.28-11.01.18:960][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2019.05.28-11.01.18:961][771]LogAIModule: Creating AISystem for world Runner
+[2019.05.28-11.01.18:961][771]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2019.05.28-11.01.18:961][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003555s)
+[2019.05.28-11.01.18:961][771]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.28-11.01.18:962][771]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.05.28-13.01.18
+[2019.05.28-11.01.18:963][771]LogWorld: Bringing up level for play took: 0.000688
+[2019.05.28-11.01.18:965][771]LogBlueprintUserMessages: [Magnet_Pickup_C_0] Magnet Active
+[2019.05.28-11.01.18:970][771]LogLoad: Took 0.060917 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.05.28-11.01.20:670][974]LogBlueprintUserMessages: [Magnet_Pickup_C_1] Magnet Active
+[2019.05.28-11.01.24:104][386]LogBlueprintUserMessages: [Magnet_Pickup_C_2] Magnet Active
+[2019.05.28-11.01.35:263][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.01.35:264][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-11.01.35:296][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-11.01.35:297][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.05.28-11.01.35:350][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-11.01.35:356][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.05.28-11.01.35:373][721]LogPlayLevel: Display: Destroying online subsystem :Context_37
