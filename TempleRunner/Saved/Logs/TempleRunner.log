@@ -1188,3 +1188,725 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.02-12.33.04:769][711]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.33.04
 [2019.06.02-12.33.04:770][711]LogWorld: Bringing up level for play took: 0.000606
 [2019.06.02-12.33.04:779][711]LogLoad: Took 0.064955 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.35.03:299][275]Cmd: restartlevel
+[2019.06.02-12.35.03:299][275]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.02-12.35.03:299][275]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.02-12.35.03:347][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.06.02-12.35.03:347][275]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.35.03:350][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002636s)
+[2019.06.02-12.35.03:350][275]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.35.03:350][275]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2019.06.02-12.35.03:350][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003455s)
+[2019.06.02-12.35.03:350][275]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.35.03:351][275]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.35.03
+[2019.06.02-12.35.03:352][275]LogWorld: Bringing up level for play took: 0.000507
+[2019.06.02-12.35.03:360][275]LogLoad: Took 0.060861 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.35.06:740][678]LogBlueprintUserMessages: [Magnet_Pickup_C_0] Magnet Active
+[2019.06.02-12.35.08:665][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.35.08:665][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.35.08:697][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.02-12.35.08:697][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.35.08:746][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.35.08:752][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.06.02-12.35.08:771][909]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.06.02-12.35.09:299][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.02-12.35.30:421][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.30:421][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.SKEL_EndlessSAvedGame_C:HighScoreValue' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.30:421][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.SKEL_EndlessSAvedGame_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.30:421][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C:HighScoreValue' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:Cube' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:Lane0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:Lane1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:Lane2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:Box' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.FirstTile_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:432][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:Cube' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:Lane0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:Lane1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:Lane2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:Box' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:433][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/FirstTile.SKEL_FirstTile_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:JumpPowerUpActive' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:JumpPowerUpActive' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:441][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Boots_Pickup.Boots_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:Timeline_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:Sphere' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:Timeline_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:Sphere' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:474][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Coin_Pickup.Coin_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:Cube' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:Lane0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:Lane1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:Lane2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:Box' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:480][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.MasterTile_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:Cube' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:Lane0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:Lane1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:Lane2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:Box' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:481][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/MasterTile.SKEL_MasterTile_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:488][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:489][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:489][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:489][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C:RotatingMovement' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:489][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:489][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.Magnet_Pickup_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.Obstacle_Box_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:Pipe' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.Obstacle_Box_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.Obstacle_Box_C:Pipe' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.Obstacle_Box_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:495][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Box.Obstacle_Box_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:Pipe' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:Pipe' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:502][ 97]LogMetaData: Removing '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.30:525][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/EndlessSAvedGameA55772034E739CE660DFDE92B7A68926.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/EndlessSAvedGame.uasset'
+[2019.06.02-12.35.30:635][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FirstTile1711D35049425D63D89E09A7F0D41DD2.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/FirstTile.uasset'
+[2019.06.02-12.35.30:664][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Boots_Pickup7EF4D2B34BD9E3B6ECAD42B5AD75761B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/Boots_Pickup.uasset'
+[2019.06.02-12.35.30:694][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_Diff78100F4F44220C26B5F54290FBA01093.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Material/FloorTile_Diff.uasset'
+[2019.06.02-12.35.30:709][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_EME5F82A394221144971284B9ABD407E2C.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Material/FloorTile_EM.uasset'
+[2019.06.02-12.35.30:732][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_NrmE15E6D404664E706CDB42EB7D8D678FA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Material/FloorTile_Nrm.uasset'
+[2019.06.02-12.35.30:767][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Floor-material98FC651B40AFFEC3357AFF9447DDC44C.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Material/Floor-material.uasset'
+[2019.06.02-12.35.30:807][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Coin_Pickup2287FDA24E6AE0275B91E39BCE8DC9B4.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/Coin_Pickup.uasset'
+[2019.06.02-12.35.30:913][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTileA9E65AC34EE82453935374972ABA6D11.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/MasterTile.uasset'
+[2019.06.02-12.35.31:221][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Magnet_PickupAE8B73854A5684F64543FD889812271B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/Magnet_Pickup.uasset'
+[2019.06.02-12.35.31:240][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_BoxE3C28E6D4A40EC1D37AAC9A554411E24.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/Obstacle_Box.uasset'
+[2019.06.02-12.35.31:262][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_PipeB15387A44633AB26E81E96B8E7AACE9D.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/MapTile/Blueprints/Obstacle_Pipe.uasset'
+[2019.06.02-12.35.32:689][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.02-12.35.32:732][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.06.02-12.35.32:774][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.02-12.35.32:816][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.02-12.35.32:857][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.06.02-12.35.32:910][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.06.02-12.35.32:952][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.06.02-12.35.32:995][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.02-12.35.33:041][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.06.02-12.35.33:084][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.02-12.35.33:128][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.02-12.35.33:170][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.02-12.35.33:219][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.06.02-12.35.33:262][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.06.02-12.35.33:282][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/RunnerHUD" FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset" SILENT=true
+[2019.06.02-12.35.33:318][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD318A0EB14EC5B017BF1341883D9693F5.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset'
+[2019.06.02-12.35.33:369][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/GameOverScreen0ED4EB09488F063AE86C8990BB5514B6.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/EndGame/GameOverScreen.uasset'
+[2019.06.02-12.35.33:510][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacterAE816454449D21EC9DCEB29C033243DE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.06.02-12.35.33:541][ 97]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonGameMode47DEB0D44DED5303CEC159A40BCC96E4.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.06.02-12.35.42:059][569]LogMetaData: Removing '/Game/Runner/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.42:059][569]LogMetaData: Removing '/Game/Runner/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C:HighScoreValue' ref from Metadata '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.42:059][569]LogMetaData: Removing '/Game/Runner/Blueprints/EndlessSAvedGame.SKEL_EndlessSAvedGame_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.42:059][569]LogMetaData: Removing '/Game/Runner/Blueprints/EndlessSAvedGame.SKEL_EndlessSAvedGame_C:HighScoreValue' ref from Metadata '/Game/Runner/MapTile/Blueprints/EndlessSAvedGame.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:Box' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:Lane2' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:Lane1' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:Lane0' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:067][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:SpawnPoint' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:Cube' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.FirstTile_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:Cube' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:SpawnPoint' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:Lane0' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:Lane1' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:Lane2' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:Box' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:068][569]LogMetaData: Removing '/Game/Runner/Blueprints/FirstTile.SKEL_FirstTile_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/FirstTile.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup_C:JumpPowerUpActive' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:JumpPowerUpActive' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:074][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:075][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:075][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:075][569]LogMetaData: Removing '/Game/Runner/Blueprints/Boots_Pickup.SKEL_Boots_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Boots_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:Sphere' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:Timeline_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:Timeline_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:080][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:Sphere' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:081][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.SKEL_Coin_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:081][569]LogMetaData: Removing '/Game/Runner/Blueprints/Coin_Pickup.Coin_Pickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/Coin_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:Box' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:Lane2' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:Lane1' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:Lane0' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:SpawnPoint' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:Cube' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:088][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:Cube' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:SpawnPoint' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:Lane0' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:Lane1' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:Lane2' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:Box' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.SKEL_MasterTile_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile:SpawnObstacle.K2Node_FunctionEntry_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:089][569]LogMetaData: Removing '/Game/Runner/Blueprints/MasterTile.MasterTile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/MasterTile.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:StaticMesh' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:RotatingMovement' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:095][569]LogMetaData: Removing '/Game/Runner/Blueprints/Magnet_Pickup.SKEL_Magnet_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Magnet_Pickup.PackageMetaData'
+[2019.06.02-12.35.42:100][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.Obstacle_Box_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.Obstacle_Box_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.Obstacle_Box_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.Obstacle_Box_C:Pipe' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.Obstacle_Box_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:Pipe' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:101][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Box.SKEL_Obstacle_Box_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Box.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:Pipe' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveBeginPlay' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:ReceiveTick' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:DefaultSceneRoot' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:Pipe' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.SKEL_Obstacle_Pipe_C:UserConstructionScript' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:107][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:108][569]LogMetaData: Removing '/Game/Runner/Blueprints/Obstacle_Pipe.Obstacle_Pipe:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Runner/MapTile/Blueprints/Obstacle_Pipe.PackageMetaData'
+[2019.06.02-12.35.42:128][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/EndlessSAvedGameF17240D14CF515069A99B49D2D0D8C46.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/EndlessSAvedGame.uasset'
+[2019.06.02-12.35.42:234][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FirstTileF84AEAE54D6DCE561589149955971593.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/FirstTile.uasset'
+[2019.06.02-12.35.42:263][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Boots_PickupFCE5E8784EC96189AF1A4EBA10E71ED7.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Boots_Pickup.uasset'
+[2019.06.02-12.35.42:301][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Coin_Pickup2853FF7D49B4B31806943083FDE30602.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Coin_Pickup.uasset'
+[2019.06.02-12.35.42:400][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTileEB5F0F5344F98BF689466BAC0FA25205.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MasterTile.uasset'
+[2019.06.02-12.35.42:424][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Magnet_Pickup7CA509B64771742D8494C08166F189D7.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Magnet_Pickup.uasset'
+[2019.06.02-12.35.42:441][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_BoxFD93EB7E4ECBD28405EFF3823919024A.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Obstacle_Box.uasset'
+[2019.06.02-12.35.42:462][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_PipeA07922C3433449AC9DF1589467327142.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Obstacle_Pipe.uasset'
+[2019.06.02-12.35.43:423][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.06.02-12.35.43:470][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.02-12.35.43:514][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.02-12.35.43:559][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.06.02-12.35.43:602][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.02-12.35.43:648][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.02-12.35.43:694][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.02-12.35.43:738][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.06.02-12.35.43:787][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.06.02-12.35.43:830][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.02-12.35.43:841][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/RunnerHUD" FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset" SILENT=true
+[2019.06.02-12.35.43:876][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD0FF3946A4DA441F27BA9FCB203B6F502.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset'
+[2019.06.02-12.35.43:922][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/GameOverScreen76FAC96B4FBE76AC78F78EAC363AEC5F.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/EndGame/GameOverScreen.uasset'
+[2019.06.02-12.35.44:043][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacterE9E012CF46C892980D505A8FABACEABA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.06.02-12.35.44:072][569]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonGameMode1CD5CF9A49D7E1B0BE4C769CDF6E44A0.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.06.02-12.35.48:004][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_Diff7C6B795242C81494DD3220822B9D8DE2.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Material/FloorTile_Diff.uasset'
+[2019.06.02-12.35.48:019][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_EM854C768A47DF364AA2B7CB87F8167C63.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Material/FloorTile_EM.uasset'
+[2019.06.02-12.35.48:042][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_Nrm947784AE4A2352312EC4F695313CD540.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Material/FloorTile_Nrm.uasset'
+[2019.06.02-12.35.48:072][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Floor-material7C82A8B842660460EB222EA39A75077E.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Material/Floor-material.uasset'
+[2019.06.02-12.35.48:592][758]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.06.02-12.35.48:634][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.02-12.35.48:678][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.06.02-12.35.48:719][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.06.02-12.35.48:768][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.06.02-12.35.48:812][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.06.02-12.35.48:914][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FirstTileBBE5A254419382AA394855B8F11CB988.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/FirstTile.uasset'
+[2019.06.02-12.35.49:011][758]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile63D2A9844CCC9CE45675B6B37B90276D.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MasterTile.uasset'
+[2019.06.02-12.35.51:717][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_DiffAFE1FCE64A672B6C06AAD6AEFCE518BE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Material/FloorTile_Diff.uasset'
+[2019.06.02-12.35.51:732][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_EMA3A271EA41B1DAD9BB55B7A3108E95A9.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Material/FloorTile_EM.uasset'
+[2019.06.02-12.35.51:755][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FloorTile_NrmDAE6358F44B9F5F168D1A595B5BB610B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Material/FloorTile_Nrm.uasset'
+[2019.06.02-12.35.51:788][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Floor-material04DF0F254792428A7D18C0901683DD3F.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Material/Floor-material.uasset'
+[2019.06.02-12.35.52:308][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.06.02-12.35.52:349][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.06.02-12.35.52:392][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.06.02-12.35.52:433][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.06.02-12.35.52:480][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.06.02-12.35.52:525][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.06.02-12.35.52:632][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FirstTileC5C2127B4883E7A8C4A226ADB3017780.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/FirstTile.uasset'
+[2019.06.02-12.35.52:734][890]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTile421E935E428045DB9C11CA846E17C598.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MasterTile.uasset'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode:SpawnTile.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:Coins' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:Points Multiplier' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:CurrentPoints' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:961][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:Coins' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:Points Multiplier' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:CurrentPoints' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:SpawnPoint' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:962][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2019.06.02-12.36.01:970][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:970][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter:DeathFunction.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:TouchEnd2D' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:TouchStart2D' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsPressed' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:MagnetActive' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:SavedSubClass' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsOnCrouch' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:JumpCrouchTime' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CanCrouch' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:Lane X' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:NewLane' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:Lane' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:Swapping' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:TouchEnd2D' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:TouchStart2D' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:IsPressed' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:MagnetActive' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:SavedSubClass' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:IsOnCrouch' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:JumpCrouchTime' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:CanCrouch' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:Lane X' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:971][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:NewLane' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:Lane' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:Swapping' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.01:972][352]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.06.02-12.36.02:015][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonGameModeB74A7D264AD0B174D9B968A8B2883DB5.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/ThirdPersonGameMode.uasset'
+[2019.06.02-12.36.02:029][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonGameMode57CF1F70450056F504DE369E711A35F9.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.06.02-12.36.02:156][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacterFA634BC443F4DD659D976E998D93BE3F.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/ThirdPersonCharacter.uasset'
+[2019.06.02-12.36.02:336][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.06.02-12.36.02:384][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.06.02-12.36.02:429][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.02-12.36.02:467][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Boots_PickupA418C9E64007CA36CDA1498D43566518.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Boots_Pickup.uasset'
+[2019.06.02-12.36.02:508][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Coin_PickupD6CC3F3441F9F10E6D6760A8C9AC120C.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Coin_Pickup.uasset'
+[2019.06.02-12.36.02:539][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Magnet_Pickup7D15EDF1464B2BC3FB6201A7C5F36388.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Magnet_Pickup.uasset'
+[2019.06.02-12.36.02:560][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_Box6FC1F3504DB7868F125378B0DA25FD04.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Obstacle_Box.uasset'
+[2019.06.02-12.36.02:585][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Obstacle_PipeB1222017499EFD25B91899B804F64BA7.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Obstacle_Pipe.uasset'
+[2019.06.02-12.36.02:684][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/FirstTileF2A0CDF64C3F219368D07A9F7C1AEBFA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/FirstTile.uasset'
+[2019.06.02-12.36.02:788][352]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTileEBA472F3421BCB4EC8C96A98ABAF5E54.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MasterTile.uasset'
+[2019.06.02-12.36.12:087][887]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.06.02-12.36.14:177][887]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.02-12.36.37:974][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Bump_StaticMesh8546EEF645309B50D56D5A831DB4826D.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/Bump_StaticMesh.uasset'
+[2019.06.02-12.36.38:005][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/LeftArm_StaticMesh09A62CD7405F144661E67FB0E8FD6230.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/LeftArm_StaticMesh.uasset'
+[2019.06.02-12.36.38:034][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Linear_Stair_StaticMeshE898530E423DFE58D2941DAE8B8A51A8.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/Linear_Stair_StaticMesh.uasset'
+[2019.06.02-12.36.38:064][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RampMaterialA5AB145A42AD0B4CBA131D9FA4862098.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/RampMaterial.uasset'
+[2019.06.02-12.36.38:094][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Ramp_StaticMesh808BC3734D8045D6C51C79814BD4FDF0.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/Ramp_StaticMesh.uasset'
+[2019.06.02-12.36.38:127][258]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RightArm_StaticMeshC0E3B3234129FE432BA7A9BDD0AA6D3D.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Meshes/RightArm_StaticMesh.uasset'
+[2019.06.02-12.36.38:865][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.06.02-12.36.38:912][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.02-12.36.38:955][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.02-12.36.39:000][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.06.02-12.36.39:042][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.06.02-12.36.39:090][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.02-12.36.39:138][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.06.02-12.36.39:181][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.02-12.36.50:137][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.02-12.36.54:060][880]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.02-12.37.10:098][784]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2019.06.02-12.37.10:106][784]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:333][784]LogMetaData: Removing '/Game/Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2019.06.02-12.37.10:542][784]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
+[2019.06.02-12.37.10:589][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonIdle8DABB03742C484D1A0FDA9AFE5E856E0.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2019.06.02-12.37.10:626][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonJump_End33F8037445B6B1CB160E1BB6FCD4DA6B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonJump_End.uasset'
+[2019.06.02-12.37.10:662][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonJump_LoopF81A30D34A04E3594D0211A00AF0B7CF.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonJump_Loop.uasset'
+[2019.06.02-12.37.10:695][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonJump_StartE5710AA14E424646CC79588963BB31DE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonJump_Start.uasset'
+[2019.06.02-12.37.10:729][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonRun1A361FD640E3717E5CB05DBCAF66FB60.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonRun.uasset'
+[2019.06.02-12.37.10:766][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonWalk72D7A02D4D3D2396AFA89BAE586487DA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2019.06.02-12.37.10:882][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPerson_AnimBP4FCD1AEC4D5AD865D55C4A893776D9C2.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.02-12.37.10:923][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPerson_IdleRun_2D09DDF26F42ABDCB51F3C18BF56781166.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2019.06.02-12.37.10:958][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPerson_Jump85C210414906531E8E9A4AA70361397B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Animations/ThirdPerson_Jump.uasset'
+[2019.06.02-12.37.11:006][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/M_UE4Man_BodyE42DBAFC43DEB209CE8C2DAAD92D76AE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/M_UE4Man_Body.uasset'
+[2019.06.02-12.37.11:040][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/M_UE4Man_ChestLogo3F16EF664048240F490F26B3BCCE587E.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2019.06.02-12.37.11:059][784]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.06.02-12.37.11:189][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ML_GlossyBlack_Latex_UE4532A36E24AB509E3957AA1AC0BC1EDEE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2019.06.02-12.37.11:201][784]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.06.02-12.37.11:255][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ML_Plastic_Shiny_Beige9C3098D248C752EC95E257BA142231E8.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2019.06.02-12.37.11:300][784]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.06.02-12.37.11:355][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ML_Plastic_Shiny_Beige_LOGO3DC6800F481F26932755DFA9A2C432E7.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2019.06.02-12.37.11:385][784]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2019.06.02-12.37.11:443][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ML_SoftMetal_UE46284873046CF399D3C48C0B938DC6774.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2019.06.02-12.37.11:474][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/T_ML_Aluminum01C2E082A1467D031E16322080AFF27456.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2019.06.02-12.37.11:499][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/T_ML_Aluminum01_N26DBD4DC4A4C13DC7AFCC8A5FB5B6F5C.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2019.06.02-12.37.11:534][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/T_ML_Rubber_Blue_01_D806F0E504C096700103FE9B4E3BB3B88.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2019.06.02-12.37.11:558][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/T_ML_Rubber_Blue_01_N76E8FF8F47D92CA07D0C4CB3A2250B93.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2019.06.02-12.37.11:673][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/SK_Mannequin79A58D174220D0325E18BF9CDBD087EE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2019.06.02-12.37.11:717][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/SK_Mannequin_Physics1DA9DE81439F0D4EC3E928B8112DB51B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2019.06.02-12.37.11:761][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/SK_Mannequin_PhysicsAsset2657CF0145BCCF6805EB9FB3DC1DA68B.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2019.06.02-12.37.11:772][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/UE4_Mannequin_Skeleton6B24781C42DF0B2D676110B3A2A22DDD.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.06.02-12.37.11:801][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/UE4Man_Logo_N3E4216E14C1C1CE31110EEBD52B410B6.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Textures/UE4Man_Logo_N.uasset'
+[2019.06.02-12.37.11:822][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/UE4_LOGO_CARDD144F573496340A93535ED801171DB16.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset'
+[2019.06.02-12.37.11:847][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/UE4_Mannequin_MAT_MASKA9AEE21C145B618EF789835B0F5F8D784.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2019.06.02-12.37.11:950][784]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/UE4_Mannequin__normalsEDD4863A4C7F7E2447337AB172B1519E.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset'
+[2019.06.02-12.37.15:333][784]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.06.02-12.37.15:395][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.06.02-12.37.15:442][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.02-12.37.15:506][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.02-12.37.15:564][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.02-12.37.15:608][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.06.02-12.37.15:655][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.06.02-12.37.15:707][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.06.02-12.37.15:750][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.02-12.37.15:812][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.06.02-12.37.15:858][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.02-12.37.15:902][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.02-12.37.15:946][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.06.02-12.37.16:017][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.06.02-12.37.16:064][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.06.02-12.37.16:127][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.02-12.37.16:172][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.06.02-12.37.16:225][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.06.02-12.37.16:284][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.02-12.37.16:329][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.02-12.37.16:387][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.06.02-12.37.16:433][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.02-12.37.16:477][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.02-12.37.16:524][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.02-12.37.16:584][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.06.02-12.37.16:628][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.02-12.37.16:692][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.06.02-12.37.16:756][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.06.02-12.37.16:803][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.MainMenuMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.MainMenuMode_C' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.MainMenuMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.MainMenuMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.SKEL_MainMenuMode_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:068][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.SKEL_MainMenuMode_C:ReceiveTick' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:069][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.SKEL_MainMenuMode_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:069][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.SKEL_MainMenuMode_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:069][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.SKEL_MainMenuMode_C' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:069][335]LogMetaData: Removing '/Game/Runner/Blueprints/MainMenuMode.MainMenuMode_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/MainMenuMode.PackageMetaData'
+[2019.06.02-12.37.28:095][335]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MainMenuMode093562424193969FA2DEB59A8922FB41.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MainMenuMode.uasset'
+[2019.06.02-12.37.28:113][335]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MainMenuModeCADB2E154EA1D02A809AFA9FD3AB2BD6.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Blueprints/MainMenuMode.uasset'
+[2019.06.02-12.37.31:634][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.06.02-12.37.33:699][505]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.02-12.37.42:080][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.02-12.37.43:495][965]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.02-12.38.09:507][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.06.02-12.38.10:688][447]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.02-12.38.17:112][859]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.02-12.38.17:133][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.38.17:133][859]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.02-12.38.17:143][859]LogPlayLevel: [PlayLevel] Compiling ThirdPersonGameMode before play...
+[2019.06.02-12.38.17:196][859]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.02-12.38.17:431][859]LogPlayLevel: [PlayLevel] Compiling FirstTile before play...
+[2019.06.02-12.38.17:635][859]LogPlayLevel: [PlayLevel] Compiling Boots_Pickup before play...
+[2019.06.02-12.38.17:660][859]LogPlayLevel: [PlayLevel] Compiling Coin_Pickup before play...
+[2019.06.02-12.38.17:684][859]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.06.02-12.38.17:904][859]LogPlayLevel: [PlayLevel] Compiling Magnet_Pickup before play...
+[2019.06.02-12.38.17:928][859]LogPlayLevel: [PlayLevel] Compiling Obstacle_Box before play...
+[2019.06.02-12.38.17:952][859]LogPlayLevel: [PlayLevel] Compiling Obstacle_Pipe before play...
+[2019.06.02-12.38.18:165][859]LogPlayLevel: [PlayLevel] Compiling GameOverScreen before play...
+[2019.06.02-12.38.18:184][859]LogPlayLevel: [PlayLevel] Compiling RunnerHUD before play...
+[2019.06.02-12.38.18:251][859]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.06.02-12.38.18:252][859]LogPlayLevel: PlayLevel: Blueprint regeneration took 1119 ms (11 blueprints)
+[2019.06.02-12.38.18:252][859]PIE: New page: PIE session: Runner (2 cze 2019, 16:38:18)
+[2019.06.02-12.38.18:252][859]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.38.18:256][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002588s)
+[2019.06.02-12.38.18:256][859]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.38.18:256][859]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.06.02-12.38.18:257][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004056s)
+[2019.06.02-12.38.18:301][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.06.02-12.38.18:317][859]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.02-12.38.18:337][859]LogInit: FAudioDevice initialized.
+[2019.06.02-12.38.18:371][859]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.38.18:372][859]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.38.18
+[2019.06.02-12.38.18:372][859]LogWorld: Bringing up level for play took: 0.000489
+[2019.06.02-12.38.18:392][859]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,172
+[2019.06.02-12.38.18:392][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.38.18:418][859]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame'
+[2019.06.02-12.38.18:419][859]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame'
+[2019.06.02-12.38.18:419][859]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/MapTile/Blueprints/EndlessSAvedGame.EndlessSAvedGame_C'
+[2019.06.02-12.38.18:423][860]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077216 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.02-12.38.23:383][453]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.24:579][596]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.25:543][711]Cmd: restartlevel
+[2019.06.02-12.38.25:543][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.02-12.38.25:543][711]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.02-12.38.25:543][711]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.02-12.38.25:593][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.06.02-12.38.25:593][711]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.38.25:595][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002073s)
+[2019.06.02-12.38.25:596][711]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.38.25:596][711]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2019.06.02-12.38.25:596][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.002844s)
+[2019.06.02-12.38.25:596][711]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.38.25:597][711]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.38.25
+[2019.06.02-12.38.25:597][711]LogWorld: Bringing up level for play took: 0.000576
+[2019.06.02-12.38.25:606][711]LogLoad: Took 0.062287 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.38.28:736][ 83]Cmd: restartlevel
+[2019.06.02-12.38.28:737][ 83]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.02-12.38.28:737][ 83]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.02-12.38.28:783][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.06.02-12.38.28:783][ 83]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.38.28:786][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002612s)
+[2019.06.02-12.38.28:786][ 83]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.38.28:786][ 83]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2019.06.02-12.38.28:786][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003370s)
+[2019.06.02-12.38.28:786][ 83]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.38.28:787][ 83]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.38.28
+[2019.06.02-12.38.28:788][ 83]LogWorld: Bringing up level for play took: 0.000549
+[2019.06.02-12.38.28:796][ 83]LogLoad: Took 0.058863 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.38.38:155][202]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.40:139][437]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.42:156][678]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.42:547][725]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.45:138][ 35]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.38.46:174][158]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.39.02:031][ 47]LogBlueprintUserMessages: [Magnet_Pickup_C_0] Magnet Active
+[2019.06.02-12.39.18:731][ 43]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.39.25:466][849]LogBlueprintUserMessages: [Magnet_Pickup_C_2] Magnet Active
+[2019.06.02-12.39.38:478][406]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.39.39:815][565]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.39.40:248][617]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.39.45:668][262]LogBlueprintUserMessages: [Magnet_Pickup_C_3] Magnet Active
+[2019.06.02-12.39.53:586][210]LogBlueprintUserMessages: [Magnet_Pickup_C_4] Magnet Active
+[2019.06.02-12.40.42:389][ 34]LogBlueprintUserMessages: [Magnet_Pickup_C_5] Magnet Active
+[2019.06.02-12.40.44:608][299]LogBlueprintUserMessages: [Magnet_Pickup_C_6] Magnet Active
+[2019.06.02-12.40.51:906][170]Cmd: restartlevel
+[2019.06.02-12.40.51:906][170]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.02-12.40.51:906][170]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.02-12.40.51:958][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.06.02-12.40.51:958][170]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.40.51:961][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002583s)
+[2019.06.02-12.40.51:962][170]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.40.51:962][170]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.06.02-12.40.51:962][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003734s)
+[2019.06.02-12.40.51:962][170]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.40.51:963][170]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.40.51
+[2019.06.02-12.40.51:963][170]LogWorld: Bringing up level for play took: 0.000543
+[2019.06.02-12.40.51:972][170]LogLoad: Took 0.066002 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.40.53:697][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.40.53:697][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.40.53:733][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.02-12.40.53:734][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.40.53:785][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.40.53:790][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.06.02-12.40.53:807][376]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.06.02-12.41.11:138][ 72]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Runner/Blueprints/Magnet_Pickup.Magnet_Pickup
+[2019.06.02-12.41.53:811][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.06.02-12.41.54:051][928]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Runner_Auto187927FEF4B6D99F12C6A7788BBC52EFE.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Maps/Runner_Auto1.umap'
+[2019.06.02-12.41.54:053][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.291
+[2019.06.02-12.41.54:054][928]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2019.06.02-12.41.54:055][928]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/EndGame/GameOverScreen] ([1] browsable assets)...
+[2019.06.02-12.41.54:055][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/EndGame/GameOverScreen]
+[2019.06.02-12.41.54:113][928]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/GameOverScreen_Auto1C0921436448C78DB5A6CA08A812E7AC9.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/HUD/EndGame/GameOverScreen_Auto1.uasset'
+[2019.06.02-12.41.54:114][928]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Runner/Blueprints/Magnet_Pickup] ([1] browsable assets)...
+[2019.06.02-12.41.54:114][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/Runner/Blueprints/Magnet_Pickup]
+[2019.06.02-12.41.54:138][928]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Magnet_Pickup_Auto1D6569C1A4E36434E9C244E84E107325E.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Runner/Blueprints/Magnet_Pickup_Auto1.uasset'
+[2019.06.02-12.41.54:139][928]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/RunnerHUD] ([1] browsable assets)...
+[2019.06.02-12.41.54:139][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/RunnerHUD]
+[2019.06.02-12.41.54:175][928]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD_Auto13ABB473A40E930F055D2E2881B7C0091.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/HUD/RunnerHUD_Auto1.uasset'
+[2019.06.02-12.41.54:176][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/SM_Couch] ([1] browsable assets)...
+[2019.06.02-12.41.54:191][928]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch]
+[2019.06.02-12.41.54:191][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/SM_Couch]
+[2019.06.02-12.41.54:209][928]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/SM_Couch_Auto1D5E1F74D4430AF0EECDDBC918BCC0F59.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/StarterContent/Props/SM_Couch_Auto1.uasset'
+[2019.06.02-12.41.54:210][928]LogFileHelpers: Auto-saving content packages took 0.155
+[2019.06.02-12.48.29:575][304]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Runner/Blueprints/Boots_Pickup.Boots_Pickup
+[2019.06.02-12.48.34:536][672]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.02-12.48.34:565][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.48.34:565][672]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.02-12.48.34:570][672]LogPlayLevel: [PlayLevel] Compiling Magnet_Pickup before play...
+[2019.06.02-12.48.34:838][672]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.06.02-12.48.34:838][672]LogPlayLevel: PlayLevel: Blueprint regeneration took 272 ms (1 blueprints)
+[2019.06.02-12.48.34:838][672]PIE: New page: PIE session: Runner (2 cze 2019, 16:48:34)
+[2019.06.02-12.48.34:839][672]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.48.34:841][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002553s)
+[2019.06.02-12.48.34:842][672]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.48.34:842][672]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2019.06.02-12.48.34:842][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003314s)
+[2019.06.02-12.48.34:890][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.06.02-12.48.34:903][672]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.02-12.48.34:922][672]LogInit: FAudioDevice initialized.
+[2019.06.02-12.48.34:949][672]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.48.34:950][672]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.48.34
+[2019.06.02-12.48.34:950][672]LogWorld: Bringing up level for play took: 0.000505
+[2019.06.02-12.48.34:970][672]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,25
+[2019.06.02-12.48.34:970][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.48.35:004][673]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075664 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.02-12.48.54:014][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.48.54:015][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.48.54:043][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.02-12.48.54:044][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.48.54:097][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.48.54:102][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.06.02-12.48.54:126][940]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.06.02-12.48.54:346][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.02-12.49.00:891][441]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.02-12.49.00:921][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.49.00:921][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.02-12.49.00:921][441]PIE: New page: PIE session: Runner (2 cze 2019, 16:49:00)
+[2019.06.02-12.49.00:921][441]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.49.00:924][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2019.06.02-12.49.00:924][441]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.49.00:924][441]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.06.02-12.49.00:924][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003138s)
+[2019.06.02-12.49.00:970][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.06.02-12.49.00:983][441]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.02-12.49.01:000][441]LogInit: FAudioDevice initialized.
+[2019.06.02-12.49.01:032][441]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.49.01:032][441]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.49.01
+[2019.06.02-12.49.01:033][441]LogWorld: Bringing up level for play took: 0.000620
+[2019.06.02-12.49.01:052][441]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,167
+[2019.06.02-12.49.01:052][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.49.04:273][823]Cmd: restartlevel
+[2019.06.02-12.49.04:274][823]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.02-12.49.04:274][823]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.02-12.49.04:324][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.06.02-12.49.04:324][823]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.02-12.49.04:327][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002124s)
+[2019.06.02-12.49.04:327][823]LogAIModule: Creating AISystem for world Runner
+[2019.06.02-12.49.04:327][823]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.06.02-12.49.04:327][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003039s)
+[2019.06.02-12.49.04:327][823]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.02-12.49.04:328][823]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.02-14.49.04
+[2019.06.02-12.49.04:328][823]LogWorld: Bringing up level for play took: 0.000482
+[2019.06.02-12.49.04:338][823]LogLoad: Took 0.063576 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.02-12.49.08:700][342]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.02-12.49.14:856][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.49.14:856][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.49.14:893][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.02-12.49.14:893][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.02-12.49.14:946][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.02-12.49.14:951][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.06.02-12.49.14:961][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_37
