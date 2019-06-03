@@ -751,3 +751,625 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.03-23.03.59:828][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/RunnerHUD" FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset" SILENT=true
 [2019.06.03-23.03.59:874][112]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD319539A649709831DB85DF8EBC4702F0.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset'
 [2019.06.03-23.03.59:916][112]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Magnet_PickupB9EAB8BA4B184DC4BAC094A84DD161EA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/Magnet_Pickup.uasset'
+[2019.06.03-23.04.40:647][988]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Runner/Blueprints/MasterTile.MasterTile
+[2019.06.03-23.04.43:050][181]LogRenderer: Reallocating scene render targets to support 1448x764 Format 10 NumSamples 1 (Frame:1).
+[2019.06.03-23.05.02:437][347]LogMaterial: Display: Missing cached shader map for material CubeMaterial, compiling. 
+[2019.06.03-23.05.02:564][347]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.06.03-23.05.10:998][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.05.11:938][324]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.05.11:978][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.11:978][324]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.05.11:983][324]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.06.03-23.05.12:382][324]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2019.06.03-23.05.12:382][324]LogPlayLevel: PlayLevel: Blueprint regeneration took 403 ms (1 blueprints)
+[2019.06.03-23.05.12:382][324]PIE: New page: PIE session: Runner (4 cze 2019, 03:05:12)
+[2019.06.03-23.05.12:383][324]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.05.12:387][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002665s)
+[2019.06.03-23.05.12:388][324]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.05.12:388][324]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.06.03-23.05.12:388][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004723s)
+[2019.06.03-23.05.12:449][324]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.06.03-23.05.12:461][324]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.05.12:477][324]LogInit: FAudioDevice initialized.
+[2019.06.03-23.05.12:506][324]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.05.12:507][324]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.05.12
+[2019.06.03-23.05.12:507][324]LogWorld: Bringing up level for play took: 0.000568
+[2019.06.03-23.05.12:528][324]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,477
+[2019.06.03-23.05.12:528][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.12:548][325]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.065471 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.05.16:070][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.16:071][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.05.16:104][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.05.16:105][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.16:172][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.05.16:178][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.06.03-23.05.16:201][729]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.06.03-23.05.17:604][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.05.20:459][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.05.21:242][310]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.05.21:279][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.21:279][310]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.05.21:281][310]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.06.03-23.05.21:594][310]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.06.03-23.05.21:594][310]LogPlayLevel: PlayLevel: Blueprint regeneration took 315 ms (1 blueprints)
+[2019.06.03-23.05.21:594][310]PIE: New page: PIE session: Runner (4 cze 2019, 03:05:21)
+[2019.06.03-23.05.21:595][310]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.05.21:597][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002359s)
+[2019.06.03-23.05.21:598][310]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.05.21:598][310]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.06.03-23.05.21:598][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003282s)
+[2019.06.03-23.05.21:654][310]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.06.03-23.05.21:665][310]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.05.21:677][310]LogInit: FAudioDevice initialized.
+[2019.06.03-23.05.21:710][310]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.05.21:710][310]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.05.21
+[2019.06.03-23.05.21:711][310]LogWorld: Bringing up level for play took: 0.000471
+[2019.06.03-23.05.21:732][310]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,681
+[2019.06.03-23.05.21:732][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.05.21:742][311]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.05.26:656][896]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.28:767][149]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.30:875][402]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.32:818][635]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.35:572][950]Cmd: restartlevel
+[2019.06.03-23.05.35:591][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.05.35:591][950]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.03-23.05.35:591][950]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.05.35:651][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.06.03-23.05.35:651][950]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.05.35:653][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002231s)
+[2019.06.03-23.05.35:654][950]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.05.35:654][950]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.06.03-23.05.35:654][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003373s)
+[2019.06.03-23.05.35:654][950]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.05.35:655][950]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.05.35
+[2019.06.03-23.05.35:656][950]LogWorld: Bringing up level for play took: 0.000695
+[2019.06.03-23.05.35:665][950]LogLoad: Took 0.073666 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.05.37:284][141]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.38:684][309]Cmd: restartlevel
+[2019.06.03-23.05.38:684][309]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.03-23.05.38:685][309]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.05.38:740][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.06.03-23.05.38:741][309]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.05.38:743][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002250s)
+[2019.06.03-23.05.38:743][309]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.05.38:744][309]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2019.06.03-23.05.38:744][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003119s)
+[2019.06.03-23.05.38:744][309]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.05.38:745][309]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.05.38
+[2019.06.03-23.05.38:745][309]LogWorld: Bringing up level for play took: 0.000427
+[2019.06.03-23.05.38:754][309]LogLoad: Took 0.068958 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.05.41:625][652]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.43:367][861]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.45:145][ 74]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.46:829][276]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.48:832][516]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.50:032][660]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.05.55:939][366]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.00:125][861]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.01:603][ 37]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.04:800][410]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.12:027][253]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.12:933][359]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.15:176][622]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.17:826][938]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.18:597][ 30]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.20:645][274]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.23:446][603]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.28:170][161]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.35:421][964]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.39:985][474]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.44:655][956]Cmd: restartlevel
+[2019.06.03-23.06.44:655][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.06.44:656][956]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.03-23.06.44:666][956]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.06.44:726][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.06.03-23.06.44:727][956]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.06.44:729][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002201s)
+[2019.06.03-23.06.44:729][956]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.06.44:730][956]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2019.06.03-23.06.44:730][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003007s)
+[2019.06.03-23.06.44:730][956]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.06.44:730][956]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.06.44
+[2019.06.03-23.06.44:731][956]LogWorld: Bringing up level for play took: 0.000513
+[2019.06.03-23.06.44:738][956]LogLoad: Took 0.071654 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.06.45:612][ 59]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.47:731][313]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.49:741][554]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.54:869][168]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.56:756][384]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.06.58:115][542]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.02:394][ 40]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.08:079][706]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.10:938][ 37]Cmd: restartlevel
+[2019.06.03-23.07.10:939][ 37]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.03-23.07.10:939][ 37]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.07.10:996][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.06.03-23.07.10:997][ 37]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.07.10:999][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002144s)
+[2019.06.03-23.07.10:999][ 37]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.07.11:000][ 37]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2019.06.03-23.07.11:000][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.002897s)
+[2019.06.03-23.07.11:000][ 37]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.07.11:000][ 37]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.07.11
+[2019.06.03-23.07.11:001][ 37]LogWorld: Bringing up level for play took: 0.000508
+[2019.06.03-23.07.11:009][ 37]LogLoad: Took 0.070200 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.07.12:551][221]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.19:222][ 15]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.20:843][209]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.23:377][513]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.25:757][798]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.28:950][180]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.31:710][511]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.33:702][750]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.35:950][ 17]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.07.37:181][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.07.37:181][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.07.37:217][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.07.37:218][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.07.37:279][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.07.37:286][164]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.06.03-23.07.37:306][165]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.06.03-23.07.56:893][383]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.07.56:929][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.07.56:929][383]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.07.56:962][383]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.03-23.07.57:356][383]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2019.06.03-23.07.57:356][383]LogPlayLevel: PlayLevel: Blueprint regeneration took 425 ms (1 blueprints)
+[2019.06.03-23.07.57:356][383]PIE: New page: PIE session: Runner (4 cze 2019, 03:07:57)
+[2019.06.03-23.07.57:357][383]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.07.57:360][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002454s)
+[2019.06.03-23.07.57:360][383]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.07.57:361][383]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2019.06.03-23.07.57:361][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003398s)
+[2019.06.03-23.07.57:416][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.06.03-23.07.57:426][383]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.07.57:439][383]LogInit: FAudioDevice initialized.
+[2019.06.03-23.07.57:465][383]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.07.57:466][383]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.07.57
+[2019.06.03-23.07.57:466][383]LogWorld: Bringing up level for play took: 0.000513
+[2019.06.03-23.07.57:486][383]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,436
+[2019.06.03-23.07.57:486][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.07.57:497][384]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.07.59:079][571]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.08.00:922][792]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.08.02:898][ 29]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.08.04:483][219]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.08.06:431][447]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.08.06:431][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.08.06:473][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.08.06:474][447]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.08.06:533][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.08.06:539][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.06.03-23.08.06:558][448]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.06.03-23.08.07:437][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.08.18:438][837]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.08.18:477][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.08.18:477][837]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.08.18:495][837]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.03-23.08.18:850][837]LogPlayLevel: [PlayLevel] Compiling MasterTile before play...
+[2019.06.03-23.08.19:187][837]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2019.06.03-23.08.19:187][837]LogPlayLevel: PlayLevel: Blueprint regeneration took 710 ms (2 blueprints)
+[2019.06.03-23.08.19:188][837]PIE: New page: PIE session: Runner (4 cze 2019, 03:08:19)
+[2019.06.03-23.08.19:188][837]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.08.19:190][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2019.06.03-23.08.19:191][837]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.08.19:191][837]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.06.03-23.08.19:191][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003496s)
+[2019.06.03-23.08.19:250][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.06.03-23.08.19:263][837]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.08.19:277][837]LogInit: FAudioDevice initialized.
+[2019.06.03-23.08.19:305][837]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.08.19:306][837]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.08.19
+[2019.06.03-23.08.19:306][837]LogWorld: Bringing up level for play took: 0.000511
+[2019.06.03-23.08.19:327][837]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,276
+[2019.06.03-23.08.19:327][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.08.19:337][838]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064956 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.08.33:859][576]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.08.57:137][344]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.09.19:440][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.09.19:440][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.09.19:471][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.09.19:471][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.09.19:532][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.09.19:540][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.06.03-23.09.19:560][962]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.06.03-23.09.25:635][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.11.18:822][757]LogEditorTransaction: Undo Break Pin Links
+[2019.06.03-23.12.12:845][926]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.12.12:885][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.12.12:885][926]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.12.12:903][926]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.03-23.12.13:307][926]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2019.06.03-23.12.13:307][926]LogPlayLevel: PlayLevel: Blueprint regeneration took 421 ms (1 blueprints)
+[2019.06.03-23.12.13:307][926]PIE: New page: PIE session: Runner (4 cze 2019, 03:12:13)
+[2019.06.03-23.12.13:308][926]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.12.13:312][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003107s)
+[2019.06.03-23.12.13:312][926]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.12.13:313][926]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2019.06.03-23.12.13:313][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.004803s)
+[2019.06.03-23.12.13:369][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.06.03-23.12.13:381][926]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.12.13:395][926]LogInit: FAudioDevice initialized.
+[2019.06.03-23.12.13:425][926]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.12.13:426][926]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.12.13
+[2019.06.03-23.12.13:426][926]LogWorld: Bringing up level for play took: 0.000440
+[2019.06.03-23.12.13:447][926]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,396
+[2019.06.03-23.12.13:447][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.12.13:458][927]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064873 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.12.14:981][106]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.18:168][488]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.22:113][961]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.27:312][584]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.30:848][  8]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.33:715][352]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.35:678][587]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.38:073][874]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.41:123][237]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.43:905][563]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.47:059][935]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.50:226][298]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.52:786][595]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.12.54:618][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.12.54:618][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.12.54:655][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.12.54:655][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.12.54:719][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.12.54:726][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.06.03-23.12.54:739][810]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.06.03-23.12.55:313][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.13.42:229][199]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.13.42:267][199]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.13.42:267][199]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.13.42:282][199]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.03-23.13.42:685][199]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2019.06.03-23.13.42:685][199]LogPlayLevel: PlayLevel: Blueprint regeneration took 417 ms (1 blueprints)
+[2019.06.03-23.13.42:685][199]PIE: New page: PIE session: Runner (4 cze 2019, 03:13:42)
+[2019.06.03-23.13.42:685][199]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.13.42:688][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002411s)
+[2019.06.03-23.13.42:688][199]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.13.42:689][199]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2019.06.03-23.13.42:689][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003929s)
+[2019.06.03-23.13.42:746][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.06.03-23.13.42:757][199]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.13.42:769][199]LogInit: FAudioDevice initialized.
+[2019.06.03-23.13.42:800][199]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.13.42:801][199]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.13.42
+[2019.06.03-23.13.42:801][199]LogWorld: Bringing up level for play took: 0.000439
+[2019.06.03-23.13.42:821][199]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,229
+[2019.06.03-23.13.42:822][199]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.13.42:832][200]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.13.43:280][250]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] right
+[2019.06.03-23.13.43:822][315]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] left
+[2019.06.03-23.13.44:322][375]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] right
+[2019.06.03-23.13.44:780][430]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] down
+[2019.06.03-23.13.44:780][430]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.45:398][504]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] up
+[2019.06.03-23.13.46:389][623]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] down
+[2019.06.03-23.13.46:389][623]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.47:816][794]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.50:609][129]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.52:540][360]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.53:881][521]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.56:392][822]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.13.59:989][253]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.01:356][416]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.03:948][726]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.08:167][227]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.21:904][841]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.27:426][466]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.30:204][787]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.33:828][184]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.40:920][993]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.42:326][151]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.43:300][259]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.44:767][417]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.14.46:536][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.14.46:537][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.14.46:575][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.14.46:576][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.14.46:640][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.14.46:649][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.06.03-23.14.46:667][614]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.06.03-23.14.47:435][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.16.58:514][767]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/character_Roll_Forward.character_Roll_Forward
+[2019.06.03-23.16.58:549][767]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.06.03-23.16.58:579][767]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.06.03-23.16.58:580][767]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.06.03-23.16.58:864][767]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.03-23.16.58:874][767]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.06.03-23.16.58:875][767]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.06.03-23.16.58:926][767]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.03-23.16.59:626][767]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.03-23.17.13:563][369]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Character/character_ABP.character_ABP
+[2019.06.03-23.17.13:581][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.03-23.17.13:982][369]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.03-23.19.08:423][808]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.19.08:465][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.19.08:465][808]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.19.08:480][808]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.06.03-23.19.08:984][808]LogUObjectHash: Compacting FUObjectHashTables data took   8.36ms
+[2019.06.03-23.19.08:985][808]LogPlayLevel: PlayLevel: Blueprint regeneration took 519 ms (1 blueprints)
+[2019.06.03-23.19.08:985][808]PIE: New page: PIE session: Runner (4 cze 2019, 03:19:08)
+[2019.06.03-23.19.08:987][808]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.19.08:990][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002386s)
+[2019.06.03-23.19.08:990][808]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.19.08:991][808]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.06.03-23.19.08:991][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003855s)
+[2019.06.03-23.19.09:090][808]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2019.06.03-23.19.09:101][808]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.19.09:116][808]LogInit: FAudioDevice initialized.
+[2019.06.03-23.19.09:151][808]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.19.09:152][808]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.19.09
+[2019.06.03-23.19.09:152][808]LogWorld: Bringing up level for play took: 0.000599
+[2019.06.03-23.19.09:173][808]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,122
+[2019.06.03-23.19.09:173][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.19.09:190][809]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064873 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.19.10:095][916]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.12:526][207]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.16:804][720]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.20:657][182]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.23:273][495]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.24:425][633]Cmd: restartlevel
+[2019.06.03-23.19.24:426][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.19.24:426][633]LogNet: Browse: /Game/Runner/Maps/Runner?restart
+[2019.06.03-23.19.24:426][633]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.19.24:489][633]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.06.03-23.19.24:489][633]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.19.24:491][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002158s)
+[2019.06.03-23.19.24:492][633]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.19.24:492][633]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.06.03-23.19.24:492][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.002945s)
+[2019.06.03-23.19.24:492][633]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.19.24:493][633]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.19.24
+[2019.06.03-23.19.24:493][633]LogWorld: Bringing up level for play took: 0.000450
+[2019.06.03-23.19.24:501][633]LogLoad: Took 0.075155 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.19.25:279][725]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.26:021][814]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.26:863][915]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.28:127][ 66]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.29:321][209]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.31:689][493]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.34:189][793]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.37:437][182]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.41:724][696]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.43:285][883]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.44:218][995]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.47:322][367]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.49:070][576]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.51:790][902]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.19.53:295][ 82]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.20.01:414][ 45]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.20.05:969][589]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.20.12:171][330]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.20.12:918][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.20.12:918][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.20.12:956][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.20.12:956][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.20.13:025][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.20.13:033][418]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.06.03-23.20.13:055][419]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.06.03-23.20.19:601][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.06.03-23.20.19:762][191]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/ThirdPersonCharacter0F53C57045DC1DC288B9D99BB59ACAC4.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/ThirdPersonBP/ThirdPersonCharacter.uasset'
+[2019.06.03-23.20.19:806][191]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/character_Roll_Forward752EB696455618E115A8798B52871C65.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/character_Roll_Forward.uasset'
+[2019.06.03-23.20.19:911][191]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/MasterTileF08016A6470AE1C646BF1B8A7A81BDCC.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Runner/Blueprints/MasterTile.uasset'
+[2019.06.03-23.23.19:594][926]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2019.06.03-23.23.19:594][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner/Maps/Runner' took 0.078
+[2019.06.03-23.23.19:595][926]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/character_Roll_Forward] ([1] browsable assets)...
+[2019.06.03-23.23.19:616][926]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/character_Roll_Forward.character_Roll_Forward]
+[2019.06.03-23.23.19:616][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/character_Roll_Forward]
+[2019.06.03-23.23.19:644][926]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/character_Roll_Forward_Auto294D951EF4B142358DCB72096AEEE6A65.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/Character/character_Roll_Forward_Auto2.uasset'
+[2019.06.03-23.23.19:646][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/RunnerHUD] ([1] browsable assets)...
+[2019.06.03-23.23.19:646][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/RunnerHUD]
+[2019.06.03-23.23.19:760][926]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD_Auto2D18929F442976F8D6EDF3DBE0CEBCFDA.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/Autosaves/Game/HUD/RunnerHUD_Auto2.uasset'
+[2019.06.03-23.23.19:761][926]LogFileHelpers: Auto-saving content packages took 0.167
+[2019.06.03-23.23.49:888][388]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.23.49:926][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.23.49:926][388]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.03-23.23.49:929][388]LogPlayLevel: [PlayLevel] Compiling RunnerHUD before play...
+[2019.06.03-23.23.50:259][388]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.06.03-23.23.50:259][388]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (1 blueprints)
+[2019.06.03-23.23.50:259][388]PIE: New page: PIE session: Runner (4 cze 2019, 03:23:50)
+[2019.06.03-23.23.50:259][388]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.23.50:262][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002604s)
+[2019.06.03-23.23.50:262][388]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.23.50:263][388]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.06.03-23.23.50:263][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003647s)
+[2019.06.03-23.23.50:323][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.06.03-23.23.50:334][388]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.23.50:347][388]LogInit: FAudioDevice initialized.
+[2019.06.03-23.23.50:374][388]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.23.50:375][388]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.23.50
+[2019.06.03-23.23.50:375][388]LogWorld: Bringing up level for play took: 0.000545
+[2019.06.03-23.23.50:397][388]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,345
+[2019.06.03-23.23.50:397][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.23.50:407][389]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064873 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2019.06.03-23.23.52:008][579]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.02:432][828]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.06:182][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.06:182][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.24.06:213][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.24.06:214][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.06:280][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.24.06:286][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.06.03-23.24.06:298][277]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.06.03-23.24.06:532][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.24.12:243][976]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.24.12:279][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.12:279][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.03-23.24.12:279][976]PIE: New page: PIE session: Runner (4 cze 2019, 03:24:12)
+[2019.06.03-23.24.12:279][976]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.24.12:282][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002328s)
+[2019.06.03-23.24.12:282][976]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.24.12:283][976]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2019.06.03-23.24.12:283][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003476s)
+[2019.06.03-23.24.12:344][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.06.03-23.24.12:355][976]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.24.12:368][976]LogInit: FAudioDevice initialized.
+[2019.06.03-23.24.12:394][976]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.24.12:395][976]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.24.12
+[2019.06.03-23.24.12:395][976]LogWorld: Bringing up level for play took: 0.000509
+[2019.06.03-23.24.12:415][976]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner -0,636
+[2019.06.03-23.24.12:415][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.13:811][140]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.16:939][515]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.20:767][974]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.26:187][623]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.29:648][ 37]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.32:410][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.32:410][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.24.32:444][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.24.32:445][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.32:509][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.24.32:516][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.06.03-23.24.32:536][369]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.06.03-23.24.33:178][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.24.39:647][216]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.24.39:684][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.39:684][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.03-23.24.39:684][216]PIE: New page: PIE session: Runner (4 cze 2019, 03:24:39)
+[2019.06.03-23.24.39:684][216]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.24.39:687][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002420s)
+[2019.06.03-23.24.39:687][216]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.24.39:688][216]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.06.03-23.24.39:688][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003331s)
+[2019.06.03-23.24.39:748][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.06.03-23.24.39:759][216]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.24.39:772][216]LogInit: FAudioDevice initialized.
+[2019.06.03-23.24.39:803][216]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.24.39:804][216]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.24.39
+[2019.06.03-23.24.39:804][216]LogWorld: Bringing up level for play took: 0.000517
+[2019.06.03-23.24.39:824][216]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,773
+[2019.06.03-23.24.39:824][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.24.40:952][349]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.42:796][570]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.45:021][837]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.47:142][ 85]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.51:328][587]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.24.57:128][282]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.00:442][679]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.04:079][114]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.06:514][406]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.08:796][679]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.13:686][265]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.17:324][701]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.20:920][132]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.25:527][684]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.32:821][557]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Crouch
+[2019.06.03-23.25.35:021][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.35:021][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.35:054][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.25.35:055][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.35:121][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.35:129][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.06.03-23.25.35:146][821]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.06.03-23.25.37:855][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.25.37:938][155]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.25.37:976][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.37:976][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.03-23.25.37:976][155]PIE: New page: PIE session: Runner (4 cze 2019, 03:25:37)
+[2019.06.03-23.25.37:976][155]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.25.37:978][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002380s)
+[2019.06.03-23.25.37:979][155]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.25.37:979][155]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2019.06.03-23.25.37:979][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003371s)
+[2019.06.03-23.25.38:040][155]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.06.03-23.25.38:050][155]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.25.38:063][155]LogInit: FAudioDevice initialized.
+[2019.06.03-23.25.38:095][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.25.38:096][155]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.25.38
+[2019.06.03-23.25.38:096][155]LogWorld: Bringing up level for play took: 0.000461
+[2019.06.03-23.25.38:114][155]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 1,063
+[2019.06.03-23.25.38:114][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.41:188][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.41:189][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.41:218][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.25.41:218][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.41:284][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.41:290][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.06.03-23.25.41:302][522]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.06.03-23.25.42:970][721]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.03-23.25.43:008][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.43:009][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.03-23.25.43:009][721]PIE: New page: PIE session: Runner (4 cze 2019, 03:25:43)
+[2019.06.03-23.25.43:009][721]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.25.43:012][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002642s)
+[2019.06.03-23.25.43:012][721]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.25.43:012][721]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2019.06.03-23.25.43:012][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003491s)
+[2019.06.03-23.25.43:075][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.06.03-23.25.43:086][721]LogInit: XAudio2 using '4 - LG IPS FULLHD (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.03-23.25.43:098][721]LogInit: FAudioDevice initialized.
+[2019.06.03-23.25.43:129][721]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.25.43:130][721]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.25.43
+[2019.06.03-23.25.43:130][721]LogWorld: Bringing up level for play took: 0.000485
+[2019.06.03-23.25.43:150][721]PIE: Play in editor start time for /Game/Runner/Maps/UEDPIE_0_Runner 0,099
+[2019.06.03-23.25.43:150][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.46:363][104]LogNet: Browse: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.46:363][104]LogLoad: LoadMap: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.46:425][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.06.03-23.25.46:565][104]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.03-23.25.46:566][104]LogLoad: Game class is 'MainMenuMode_C'
+[2019.06.03-23.25.46:567][104]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.06.04-01.25.46
+[2019.06.03-23.25.46:568][104]LogWorld: Bringing up level for play took: 0.001145
+[2019.06.03-23.25.46:568][104]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.03-23.25.46:569][104]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.06.03-23.25.46:569][104]LogLoad: Took 0.205644 seconds to LoadMap(/Game/Runner/Maps/MainMenu)
+[2019.06.03-23.25.47:424][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.25.47:424][206]LogNet: Browse: /Game/Runner/Maps/Runner
+[2019.06.03-23.25.47:424][206]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.25.47:487][206]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.06.03-23.25.47:487][206]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.25.47:490][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002603s)
+[2019.06.03-23.25.47:491][206]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.25.47:491][206]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.06.03-23.25.47:491][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003479s)
+[2019.06.03-23.25.47:491][206]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.25.47:492][206]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.25.47
+[2019.06.03-23.25.47:492][206]LogWorld: Bringing up level for play took: 0.000459
+[2019.06.03-23.25.47:500][206]LogLoad: Took 0.075268 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.25.50:987][623]LogNet: Browse: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.50:987][623]LogLoad: LoadMap: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.51:045][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.06.03-23.25.51:053][623]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.03-23.25.51:053][623]LogLoad: Game class is 'MainMenuMode_C'
+[2019.06.03-23.25.51:054][623]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.06.04-01.25.51
+[2019.06.03-23.25.51:054][623]LogWorld: Bringing up level for play took: 0.000706
+[2019.06.03-23.25.51:055][623]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.03-23.25.51:055][623]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.06.03-23.25.51:056][623]LogLoad: Took 0.069783 seconds to LoadMap(/Game/Runner/Maps/MainMenu)
+[2019.06.03-23.25.52:983][848]LogNet: Browse: /Game/Runner/Maps/Runner
+[2019.06.03-23.25.52:983][848]LogLoad: LoadMap: /Game/Runner/Maps/Runner
+[2019.06.03-23.25.53:041][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.03-23.25.53:041][848]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner
+[2019.06.03-23.25.53:043][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002120s)
+[2019.06.03-23.25.53:044][848]LogAIModule: Creating AISystem for world Runner
+[2019.06.03-23.25.53:044][848]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.06.03-23.25.53:044][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner.Runner to /Game/Runner/Maps/UEDPIE_0_Runner.Runner (0.003042s)
+[2019.06.03-23.25.53:044][848]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.03-23.25.53:045][848]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner.Runner up for play (max tick rate 0) at 2019.06.04-01.25.53
+[2019.06.03-23.25.53:046][848]LogWorld: Bringing up level for play took: 0.000537
+[2019.06.03-23.25.53:053][848]LogLoad: Took 0.069769 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner)
+[2019.06.03-23.25.54:278][994]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] right
+[2019.06.03-23.25.58:027][443]LogNet: Browse: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.58:027][443]LogLoad: LoadMap: /Game/Runner/Maps/MainMenu
+[2019.06.03-23.25.58:087][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.06.03-23.25.58:094][443]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.03-23.25.58:094][443]LogLoad: Game class is 'MainMenuMode_C'
+[2019.06.03-23.25.58:095][443]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.06.04-01.25.58
+[2019.06.03-23.25.58:096][443]LogWorld: Bringing up level for play took: 0.000843
+[2019.06.03-23.25.58:096][443]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.03-23.25.58:096][443]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.06.03-23.25.58:097][443]LogLoad: Took 0.069745 seconds to LoadMap(/Game/Runner/Maps/MainMenu)
+[2019.06.03-23.25.59:177][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.59:177][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.59:206][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.03-23.25.59:206][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner/Maps/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner/Maps/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner/Maps/Runner.Runner:PersistentLevel.Runner'
+[2019.06.03-23.25.59:269][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.03-23.25.59:276][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.06.03-23.25.59:307][574]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.06.03-23.26.01:444][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.03-23.26.09:815][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.06.03-23.26.09:864][806]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/character_Roll_Forward54B433A541F5D18F1DDCD0A4EA4C5787.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/Character/character_Roll_Forward.uasset'
+[2019.06.03-23.26.09:868][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/RunnerHUD" FILE="I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset" SILENT=true
+[2019.06.03-23.26.09:915][806]LogSavePackage: Moving 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Saved/RunnerHUD45531A3949FB3FA2A39FCAA516C01EB8.tmp' to 'I:/aaa - pulpit/projekty/Programowanie/C++ gamedev/polygon/Polygon-lato2019-projekt/TempleRunner/Content/HUD/RunnerHUD.uasset'
