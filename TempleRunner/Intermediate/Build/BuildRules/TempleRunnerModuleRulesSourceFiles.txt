@@ -1,3 +1,3 @@
-D:\corpoGame\Nowy folder\TempleRunner\Source\TempleRunner\TempleRunner.Build.cs
-D:\corpoGame\Nowy folder\TempleRunner\Source\TempleRunner.Target.cs
-D:\corpoGame\Nowy folder\TempleRunner\Source\TempleRunnerEditor.Target.cs
+I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner\TempleRunner.Build.cs
+I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunner.Target.cs
+I:\aaa - pulpit\projekty\Programowanie\C++ gamedev\polygon\Polygon-lato2019-projekt\TempleRunner\Source\TempleRunnerEditor.Target.cs

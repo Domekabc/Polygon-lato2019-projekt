@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TempleRunner.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{A18573B3-C67E-464A-91CC-0573E5690D9B}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{CAB3C45C-00F0-4E7A-91E1-0D3DC1E12EF8}</UniqueIdentifier>
->>>>>>> origin/EditorChanges
+      <UniqueIdentifier>{1E27BAB1-5A0C-47ED-B0FF-F6811A26A0AC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -17,11 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{2BADAAD3-C092-4C5B-BE25-C621BFA72933}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{6C04D2B3-D410-4519-B600-4BC04F930C25}</UniqueIdentifier>
->>>>>>> origin/EditorChanges
+      <UniqueIdentifier>{F9C63E9F-9E77-468C-9653-DAA8CFC3123F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -39,11 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TempleRunner">
-<<<<<<< HEAD
-      <UniqueIdentifier>{105B66BD-14B7-4AED-8C2A-E3B78D6B33B4}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{95B78733-193C-434F-8A04-C62451683AA2}</UniqueIdentifier>
->>>>>>> origin/EditorChanges
+      <UniqueIdentifier>{53B2803A-EA35-4255-91B4-60802CB167E5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TempleRunner\TempleRunner.Build.cs">
       <Filter>Source\TempleRunner</Filter>
